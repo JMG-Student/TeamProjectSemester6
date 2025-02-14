@@ -1,7 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\pages\\admin\\screens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\screens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\pages\\admin\\screens\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\screens\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\pages\\admin\\screens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\screens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\pages\\admin\\screens\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\screens\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\cinemaproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\cinemaproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject.models\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject.models\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject.dataaccess\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject.models\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\l00170098\\onedrive - atlantic tu\\sem 6\\team projects\\project\\cinemaproject\\cinemaproject.models\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +62,168 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml.cs",
+              "RelativeToolTip": "CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:53:10.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml",
+              "RelativeToolTip": "CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T11:53:01.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml.cs",
+              "RelativeToolTip": "CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:14:33.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml",
+              "RelativeToolTip": "CinemaProject\\Pages\\Admin\\Screens\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T11:14:17.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CinemaProject.csproj",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+              "RelativeDocumentMoniker": "CinemaProject\\CinemaProject.csproj",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+              "RelativeToolTip": "CinemaProject\\CinemaProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T13:23:34.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CinemaProject\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T11:35:07.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CinemaProject\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-14T11:35:00.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Seat.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Seat.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Seat.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:32:52.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Film.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Film.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Film.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:32:50.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:26:27.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Program.cs",
+              "RelativeDocumentMoniker": "CinemaProject\\Program.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject\\Program.cs",
+              "RelativeToolTip": "CinemaProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:59:41.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Report.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Report.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:56:42.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\Sem 6\\Team Projects\\Project\\CinemaProject\\CinemaProject.Models\\Models\\Booking.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:50:08.52Z"
             }
           ]
         }
