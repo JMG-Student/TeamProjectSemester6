@@ -8,5 +8,8 @@ namespace CinemaProject.Models.Models
 {
     public class Report
     {
+        public int Id { get; set; }
+
+
     }
 }

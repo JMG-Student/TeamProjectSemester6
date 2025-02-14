@@ -1042,10 +1042,7 @@
       },
       "CinemaProject.Models/1.0.0": {
         "runtime": {
-          "CinemaProject.Models.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CinemaProject.Models.dll": {}
         }
       }
     }
