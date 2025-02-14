@@ -21,6 +21,9 @@ This is the online repository for the Team Project 2025, for Team 3
 <!--- insert the name of the product owner(s) --->
 <!--- You may want to rotate product owners each week to share the responsability and workload. In which case update the product owner each week and list the previous product owners with dates --->
 + James Mc Ginley (23rd Jan)
++ Aoife Doherty (6th Feb)
++ Allanah Mullis (20th Feb)
++ Ernest Silins (6th March)
 
 ### Team
 <!--- Insert team members github handles and names! --->
