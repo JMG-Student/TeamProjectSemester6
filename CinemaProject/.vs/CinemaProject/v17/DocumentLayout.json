@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\L00175049\\source\\repos\\TeamProjectSemester6\\CinemaProject\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\james\\source\\repos\\jmg-student\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Film.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Film.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Film.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:28:25.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Booking.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:28:03.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Screening.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screening.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Screening.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screening.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Screening.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:27:40.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Seat.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Seat.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:23:20.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screen.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Screen.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screen.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:22:04.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\User.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:20:37.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\JMG-Student\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T00:13:11.675Z",
+              "EditorCaption": ""
             }
           ]
         }
