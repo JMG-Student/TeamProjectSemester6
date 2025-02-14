@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CinemaProject",
+    "\\CinemaProject\\CinemaProject",
+    "\\CinemaProject\\CinemaProject.DataAccess",
+    "\\CinemaProject\\CinemaProject.Models"
   ],
-  "SelectedNode": "\\CinemaProject.sln",
+  "SelectedNode": "\\CinemaProject\\CinemaProject.sln",
   "PreviewInSolutionExplorer": false
 }
