@@ -4778,9 +4778,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+      "projectUniqueName": "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
       "projectName": "CinemaProject",
-      "projectPath": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+      "projectPath": "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
       "packagesPath": "C:\\Users\\L00106072\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\obj\\",
       "projectStyle": "PackageReference",
@@ -4804,11 +4804,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj"
+            "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj"
             },
-            "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
-              "projectPath": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj"
+            "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
+              "projectPath": "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj"
             }
           }
         }

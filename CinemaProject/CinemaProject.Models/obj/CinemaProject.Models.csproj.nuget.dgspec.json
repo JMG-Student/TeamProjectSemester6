@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {}
+    "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
+    "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
+        "projectUniqueName": "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
         "projectName": "CinemaProject.Models",
-        "projectPath": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
+        "projectPath": "C:\\Users\\L00106072\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
         "packagesPath": "C:\\Users\\L00106072\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\L00106072\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\obj\\",
         "projectStyle": "PackageReference",
