@@ -344,3 +344,7 @@ C:\Users\james\source\repos\JMG-Student\TeamProjectSemester6\CinemaProject\Cinem
 C:\Users\james\source\repos\JMG-Student\TeamProjectSemester6\CinemaProject\CinemaProject\obj\Debug\net8.0\CinemaPr.7A5619D7.Up2Date
 C:\Users\james\source\repos\JMG-Student\TeamProjectSemester6\CinemaProject\CinemaProject\obj\Debug\net8.0\CinemaProject.genruntimeconfig.cache
 C:\Users\james\source\repos\JMG-Student\TeamProjectSemester6\CinemaProject\CinemaProject\obj\Debug\net8.0\ref\CinemaProject.dll
+C:\Users\L00175049\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\bin\Debug\net8.0\CinemaProject.DataAccess.dll
+C:\Users\L00175049\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\bin\Debug\net8.0\CinemaProject.Models.dll
+C:\Users\L00175049\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\bin\Debug\net8.0\CinemaProject.DataAccess.pdb
+C:\Users\L00175049\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\bin\Debug\net8.0\CinemaProject.Models.pdb
