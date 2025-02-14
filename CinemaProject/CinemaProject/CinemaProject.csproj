@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -29,10 +29,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CinemaProject.DataAccess\CinemaProject.DataAccess.csproj" />
     <ProjectReference Include="..\CinemaProject.Models\CinemaProject.Models.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pages\Admin\" />
   </ItemGroup>
 
 </Project>
