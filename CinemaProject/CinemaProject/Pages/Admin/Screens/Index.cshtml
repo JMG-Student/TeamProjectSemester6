@@ -40,6 +40,12 @@
                 <td width="15%">@obj.Columns</td>
                 <td width="15%">@obj.Rows</td>
                 <td width="15%">@(obj.Columns * obj.Rows)</td> 
+                <td>
+                    <a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a asp-page="Delete" asp-route-id="@obj.Id">Delete</a>
+                </td>
 
             </tr>
         }
