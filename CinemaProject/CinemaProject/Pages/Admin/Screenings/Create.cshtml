@@ -13,6 +13,12 @@
             <input asp-for="@Model.Screening.Time" class="form-control" />
             <span asp-validation-for="@Model.Screening.Time" class="text-danger"></span>
         </div>
+        <div class="mb-3">
+            <label asp-for="@Model.Screening.ScreenID"></label>
+            <select asp-for="@Model.Screening.ScreenID" asp-items="@Model.ScreenList" class="form-select">
+                <option disabled selected="selected Screen ---"></option>
+            </select>
+        </div>
         <button type="submit" class="btn btn-primary">Create</button>
     </div>
 </form>

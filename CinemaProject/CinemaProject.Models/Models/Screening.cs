@@ -16,7 +16,7 @@ namespace CinemaProject.Models.Models
 
         // Foreign Key 
         public int ScreenID { get; set; }
-        //public Screen? Screen { get; set; }
+        public Screen? Screen { get; set; }
 
         public List<Ticket> Tickets { get; set; }
     }

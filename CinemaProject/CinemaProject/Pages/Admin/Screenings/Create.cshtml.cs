@@ -2,6 +2,7 @@ using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace CinemaProject.Pages.Admin.Screenings
@@ -16,8 +17,15 @@ namespace CinemaProject.Pages.Admin.Screenings
         }
 
         public Screening Screening{ get; set; }
+
+        public IEnumerable<SelectListItem> ScreenList { get; set; }
         public void OnGet()
         {
+            ScreenList = _dbContext.Screens.Select(i => new SelectListItem()
+            {
+                Text = i.Name,
+                Value = i.Id.ToString(),
+            });
         }
 
         public async Task<IActionResult> OnPost(Screening screening)

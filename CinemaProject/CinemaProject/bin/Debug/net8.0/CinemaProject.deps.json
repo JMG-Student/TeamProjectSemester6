@@ -1048,12 +1048,18 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2"
         },
         "runtime": {
-          "CinemaProject.DataAccess.dll": {}
+          "CinemaProject.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CinemaProject.Models/1.0.0": {
         "runtime": {
-          "CinemaProject.Models.dll": {}
+          "CinemaProject.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
