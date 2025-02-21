@@ -21,9 +21,9 @@ namespace CinemaProject.Pages.Admin.Screenings
         public IEnumerable<SelectListItem> ScreenList { get; set; }
         public void OnGet()
         {
-            ScreenList = _dbContext.Screens.Select(i => new SelectListItem()
+            ScreenList = _dbContext.Screen.Select(i => new SelectListItem()
             {
-                Text = i.Name,
+                //Text = i.Name,
                 Value = i.Id.ToString(),
             });
         }

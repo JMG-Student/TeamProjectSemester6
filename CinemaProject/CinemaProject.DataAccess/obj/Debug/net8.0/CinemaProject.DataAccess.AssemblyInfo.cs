@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CinemaProject.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cc95c6adf47699f4ca908346cbba02f58465e93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1152920f4109497010f7a1a77595f0c646cf9aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CinemaProject.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CinemaProject.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
