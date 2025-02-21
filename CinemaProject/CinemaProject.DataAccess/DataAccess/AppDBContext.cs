@@ -21,7 +21,5 @@ namespace CinemaProject.DataAccess.DataAccess
         public DbSet<Seat> Seats { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<User> Users { get; set; }
-
-
     }
 }
