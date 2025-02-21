@@ -19,9 +19,12 @@ namespace CinemaProject.Models.Models
         [Required]
         public string PosterLink { get; set; }
         [Required]
-        public List<string> Genres { get; set; }
+        public string Genres { get; set; }
         [Required]
         public int Runtime { get; set; }
+        //[Required]
+        //[Url]
+        //public string TrailerUrl { get; set; } 
 
     }
 }
