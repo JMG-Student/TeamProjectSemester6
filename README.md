@@ -23,7 +23,7 @@ This is the online repository for the Team Project 2025, for Team 3
 + James Mc Ginley (23rd Jan)
 + Aoife Doherty (6th Feb)
 + Allanah Mullis (20th Feb)
-+ Ernest Silins (6th March)
++ Ernest Silins (14th-28th Feb)
 
 ### Team
 <!--- Insert team members github handles and names! --->
