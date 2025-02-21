@@ -31,4 +31,9 @@
     <ProjectReference Include="..\CinemaProject.Models\CinemaProject.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Admin\" />
+    <Folder Include="Pages\Customer\" />
+  </ItemGroup>
+
 </Project>
