@@ -26,6 +26,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\L00170098\source\repos\TeamProjectSemester6\CinemaProject\CinemaProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/L00170098/source/repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

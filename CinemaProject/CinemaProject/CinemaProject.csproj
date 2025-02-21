@@ -14,6 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Pages\Admin\Screens\Create.cshtml" />
+    <None Include="Pages\Admin\Screens\Delete.cshtml" />
+    <None Include="Pages\Admin\Screens\Edit.cshtml" />
+    <None Include="Pages\Admin\Screens\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2">
       <PrivateAssets>all</PrivateAssets>
@@ -29,6 +36,10 @@
   <ItemGroup>
     <ProjectReference Include="..\CinemaProject.DataAccess\CinemaProject.DataAccess.csproj" />
     <ProjectReference Include="..\CinemaProject.Models\CinemaProject.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Admin\Seats\" />
   </ItemGroup>
 
 </Project>
