@@ -34,3 +34,15 @@ C:\Users\L00170098\source\repos\TeamProjectSemester6\CinemaProject\CinemaProject
 C:\Users\L00170098\source\repos\TeamProjectSemester6\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\refint\CinemaProject.Models.dll
 C:\Users\L00170098\source\repos\TeamProjectSemester6\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.pdb
 C:\Users\L00170098\source\repos\TeamProjectSemester6\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\ref\CinemaProject.Models.dll
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\bin\Debug\net8.0\CinemaProject.Models.deps.json
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\bin\Debug\net8.0\CinemaProject.Models.dll
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\bin\Debug\net8.0\CinemaProject.Models.pdb
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.AssemblyInfoInputs.cache
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.AssemblyInfo.cs
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.csproj.CoreCompileInputs.cache
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.sourcelink.json
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.dll
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\refint\CinemaProject.Models.dll
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\CinemaProject.Models.pdb
+C:\Users\L00170098\OneDrive - Atlantic TU\teamproj2\CinemaProject\CinemaProject.Models\obj\Debug\net8.0\ref\CinemaProject.Models.dll

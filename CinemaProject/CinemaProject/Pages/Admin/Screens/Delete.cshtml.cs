@@ -17,14 +17,14 @@ namespace CinemaProject.Pages.Admin.Screens
         public Screen Screen { get; set; }
         public void OnGet(int id)
         {
-            Screen = _dbContext.Screen.Find(id);
+            Screen = _dbContext.Screens.Find(id);
         }
 
         public async Task<IActionResult> OnPost(Screen screen)
         {
             if (ModelState.IsValid)
             {
-                _dbContext.Screen.Remove(screen);
+                _dbContext.Screens.Remove(screen);
                 await _dbContext.SaveChangesAsync();
             }
             return RedirectToPage("Index");

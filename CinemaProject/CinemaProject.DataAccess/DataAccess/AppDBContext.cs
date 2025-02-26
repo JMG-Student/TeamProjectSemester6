@@ -25,7 +25,7 @@ namespace CinemaProject.DataAccess.DataAccess
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<Film> Films { get; set; }
         public DbSet<Report> Reports { get; set; }
-        public DbSet<Screen> Screen { get; set; }
+        public DbSet<Screen> Screens { get; set; }
         public DbSet<Screening> Screenings { get; set; }
         public DbSet<Seat> Seats { get; set; }
         public DbSet<Ticket> Tickets { get; set; }

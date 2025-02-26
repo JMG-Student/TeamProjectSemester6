@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CinemaProject.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class testing : Migration
+    public partial class _16565 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -53,7 +53,7 @@ namespace CinemaProject.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Screen",
+                name: "Screens",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -63,7 +63,7 @@ namespace CinemaProject.DataAccess.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Screen", x => x.Id);
+                    table.PrimaryKey("PK_Screens", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -95,9 +95,9 @@ namespace CinemaProject.DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Screenings", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Screenings_Screen_ScreenID",
+                        name: "FK_Screenings_Screens_ScreenID",
                         column: x => x.ScreenID,
-                        principalTable: "Screen",
+                        principalTable: "Screens",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -111,15 +111,16 @@ namespace CinemaProject.DataAccess.Migrations
                     Row = table.Column<int>(type: "int", nullable: false),
                     Column = table.Column<int>(type: "int", nullable: false),
                     Type = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsReserved = table.Column<bool>(type: "bit", nullable: false),
                     ScreenId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Seats", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Seats_Screen_ScreenId",
+                        name: "FK_Seats_Screens_ScreenId",
                         column: x => x.ScreenId,
-                        principalTable: "Screen",
+                        principalTable: "Screens",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -183,7 +184,7 @@ namespace CinemaProject.DataAccess.Migrations
                 name: "Screenings");
 
             migrationBuilder.DropTable(
-                name: "Screen");
+                name: "Screens");
         }
     }
 }

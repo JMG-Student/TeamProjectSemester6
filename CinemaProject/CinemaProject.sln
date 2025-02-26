@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaProject", "CinemaProject\CinemaProject.csproj", "{9A5AF302-D594-40E2-A547-2436A5C30380}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaProject.DataAccess", "CinemaProject.DataAccess\CinemaProject.DataAccess.csproj", "{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaProject.DataAccess", "CinemaProject.DataAccess\CinemaProject.DataAccess.csproj", "{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemaProject.Models", "CinemaProject.Models\CinemaProject.Models.csproj", "{3DBFC45F-E7F9-4231-9AD5-E283820361E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinemaProject.Models", "CinemaProject.Models\CinemaProject.Models.csproj", "{3DBFC45F-E7F9-4231-9AD5-E283820361E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

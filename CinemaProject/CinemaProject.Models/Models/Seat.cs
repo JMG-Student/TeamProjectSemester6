@@ -20,6 +20,9 @@ namespace CinemaProject.Models.Models
         [Required]
         public string Type { get; set; }
 
+        public bool IsReserved { get; set; }
+        [Required]
+
         [ForeignKey("Screen")]
         public int ScreenId { get; set; }
         public Screen? Screen { get; set; }

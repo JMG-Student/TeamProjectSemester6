@@ -1,0 +1,44 @@
+﻿@page
+@model CinemaProject.Pages.Admin.Seats.IndexModel
+@{
+}
+<h3 class="text-primary">Select a Screen</h3>
+
+<!-- Dropdown to select a screen -->
+<form method="get">
+    <div class="form-group">
+        <label for="screenId">Select Screen:</label>
+        <select class="form-control" id="screenId" name="screenId" onchange="this.form.submit()">
+            <option value="">-- Select a Screen --</option>
+            @foreach (var screen in Model.Screens)
+            {
+                <option value="@screen.Id" selected="@(screen.Id == Model.SelectedScreenId ? "selected" : null)">
+                    Screen @screen.Id (Rows: @screen.Rows, Columns: @screen.Columns)
+                </option>
+            }
+        </select>
+    </div>
+</form>
+
+<!-- Display seats for the selected screen -->
+@if (Model.SelectedScreen != null)
+{
+    <h3 class="text-primary">Seats for Screen @Model.SelectedScreen.Id</h3>
+    <div class="seats-container">
+        @for (int row = 1; row <= Model.SelectedScreen.Rows; row++)
+        {
+            <div class="seat-row">
+                @for (int col = 1; col <= Model.SelectedScreen.Columns; col++)
+                {
+                    var seat = Model.Seats.FirstOrDefault(s => s.Row == row && s.Column == col);
+                    <div class="seat @(seat?.IsReserved == true ? "reserved" : "available")">
+                        @if (seat != null)
+                        {
+                            <input type="checkbox" name="selectedSeats" value="@seat.Id" @(seat.IsReserved ? "disabled" : "") />
+                        }
+                    </div>
+                }
+            </div>
+        }
+    </div>
+}

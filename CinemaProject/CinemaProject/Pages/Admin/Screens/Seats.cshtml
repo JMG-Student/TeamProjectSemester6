@@ -1,0 +1,60 @@
+﻿@page
+@model CinemaProject.Pages.Admin.Screens.SeatsModel
+@{
+}
+<style>
+    .seats-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .seat-row {
+        display: flex;
+        gap: 5px;
+    }
+
+    .seat {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+    }
+
+    .available {
+        background-color: green;
+    }
+
+    .reserved {
+        background-color: red;
+    }
+
+    .vip {
+        background-color: gold;
+    }
+</style>
+<h3>Seats for Screen @Model.Screen.Id</h3>
+
+<div class="seats-container">
+    @for (int row = 1; row <= Model.Screen.Rows; row++)
+    {
+        <div class="seat-row">
+            @for (int col = 1; col <= Model.Screen.Columns; col++)
+            {
+                var seat = Model.Seats.FirstOrDefault(s => s.Row == row && s.Column == col);
+                <div class="seat @(seat?.IsReserved == true ? "reserved" : "available")">
+                    @if (seat != null)
+                    {
+                        <input type="checkbox" name="selectedSeats" value="@seat.Id" @(seat.IsReserved ? "disabled" : "") />
+                    }
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-primary">Reserve Selected Seats</button>
+</form>

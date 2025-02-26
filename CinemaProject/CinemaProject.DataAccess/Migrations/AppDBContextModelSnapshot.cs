@@ -96,7 +96,7 @@ namespace CinemaProject.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Screen");
+                    b.ToTable("Screens");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Screening", b =>
@@ -130,6 +130,9 @@ namespace CinemaProject.DataAccess.Migrations
 
                     b.Property<int>("Column")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsReserved")
+                        .HasColumnType("bit");
 
                     b.Property<int>("Row")
                         .HasColumnType("int");

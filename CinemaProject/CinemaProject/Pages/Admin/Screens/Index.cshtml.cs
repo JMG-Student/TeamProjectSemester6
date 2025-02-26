@@ -13,7 +13,7 @@ namespace CinemaProject.Pages.Admin.Screens
         }
         public void OnGet()
         {
-            Screens = _dbContext.Screen;
+            Screens = _dbContext.Screens;
         }
     }
 }

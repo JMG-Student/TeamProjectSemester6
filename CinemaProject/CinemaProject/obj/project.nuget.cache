@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3gq4e9QO9k=",
+  "dgSpecHash": "00n89Kn9+RA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+  "projectFilePath": "C:\\Users\\L00170098\\OneDrive - Atlantic TU\\teamproj2\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\L00170098\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\L00170098\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

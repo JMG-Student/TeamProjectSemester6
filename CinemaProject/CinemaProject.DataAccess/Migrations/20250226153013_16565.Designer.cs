@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaProject.DataAccess.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250221113124_testing")]
-    partial class testing
+    [Migration("20250226153013_16565")]
+    partial class _16565
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -99,7 +99,7 @@ namespace CinemaProject.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Screen");
+                    b.ToTable("Screens");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Screening", b =>
@@ -133,6 +133,9 @@ namespace CinemaProject.DataAccess.Migrations
 
                     b.Property<int>("Column")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsReserved")
+                        .HasColumnType("bit");
 
                     b.Property<int>("Row")
                         .HasColumnType("int");
