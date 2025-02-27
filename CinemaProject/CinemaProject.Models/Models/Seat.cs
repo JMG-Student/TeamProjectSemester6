@@ -26,6 +26,8 @@ namespace CinemaProject.Models.Models
         [ForeignKey("Screen")]
         public int ScreenId { get; set; }
         public Screen? Screen { get; set; }
-        //wow
+
+        //public int ScreeningId { get; set; }
+        //public Screening? Screening { get; set; }
     }
 }

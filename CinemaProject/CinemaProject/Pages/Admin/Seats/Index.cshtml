@@ -12,9 +12,9 @@
             <option value="">-- Select a Screen --</option>
             @foreach (var screen in Model.Screens)
             {
-                <option value="@screen.Id" selected="@(screen.Id == Model.SelectedScreenId ? "selected" : null)">
-                    Screen @screen.Id (Rows: @screen.Rows, Columns: @screen.Columns)
-                </option>
+                    <option value="@screen.Id" selected="@(screen.Id == Model.SelectedScreenId ? "selected" : null)">
+                        Screen @screen.Id (Rows: @screen.Rows, Columns: @screen.Columns)
+                    </option>
             }
         </select>
     </div>
@@ -23,22 +23,22 @@
 <!-- Display seats for the selected screen -->
 @if (Model.SelectedScreen != null)
 {
-    <h3 class="text-primary">Seats for Screen @Model.SelectedScreen.Id</h3>
-    <div class="seats-container">
+        <h3 class="text-primary">Seats for Screen @Model.SelectedScreen.Id</h3>
+
+        <!-- Container for seats with correct grid layout -->
+        <div class="seats-container" style="display: grid; grid-template-columns: repeat(@Model.SelectedScreen.Columns, 1fr); gap: 5px;">
         @for (int row = 1; row <= Model.SelectedScreen.Rows; row++)
         {
-            <div class="seat-row">
-                @for (int col = 1; col <= Model.SelectedScreen.Columns; col++)
-                {
-                    var seat = Model.Seats.FirstOrDefault(s => s.Row == row && s.Column == col);
-                    <div class="seat @(seat?.IsReserved == true ? "reserved" : "available")">
-                        @if (seat != null)
-                        {
-                            <input type="checkbox" name="selectedSeats" value="@seat.Id" @(seat.IsReserved ? "disabled" : "") />
-                        }
-                    </div>
-                }
-            </div>
+            @for (int col = 1; col <= Model.SelectedScreen.Columns; col++)
+            {
+                var seat = Model.Seats.FirstOrDefault(s => s.Row == row && s.Column == col);
+                            <div class="seat @(seat?.IsReserved == true ? "reserved" : "available")">
+                    @if (seat != null)
+                    {
+                                        <input type="checkbox" name="selectedSeats" value="@seat.Id" @(seat.IsReserved ? "disabled" : "") />
+                    }
+                            </div>
+            }
         }
-    </div>
+        </div>
 }

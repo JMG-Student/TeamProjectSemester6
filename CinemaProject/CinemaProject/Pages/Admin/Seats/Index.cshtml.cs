@@ -1,13 +1,16 @@
 using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CinemaProject.Pages.Admin.Seats
 {
     public class IndexModel : PageModel
     {
-
         private readonly AppDBContext _dbContext;
 
         public IndexModel(AppDBContext context)
@@ -34,6 +37,28 @@ namespace CinemaProject.Pages.Admin.Seats
                     .Where(s => s.ScreenId == screenId.Value)
                     .ToListAsync();
             }
+        }
+
+        public async Task<IActionResult> OnPostAsync(int screenId, List<int> selectedSeats)
+        {
+            if (selectedSeats == null || !selectedSeats.Any())
+            {
+                return RedirectToPage(new { screenId });
+            }
+
+            // Find and update selected seats
+            var seatsToUpdate = await _dbContext.Seats
+                .Where(s => selectedSeats.Contains(s.Id))
+                .ToListAsync();
+
+            foreach (var seat in seatsToUpdate)
+            {
+                seat.IsReserved = true;
+            }
+
+            await _dbContext.SaveChangesAsync();
+
+            return RedirectToPage(new { screenId });
         }
     }
 }
