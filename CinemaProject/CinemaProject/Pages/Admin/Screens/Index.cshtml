@@ -1,0 +1,52 @@
+﻿@page
+@model CinemaProject.Pages.Admin.Screens.IndexModel
+@{
+}
+
+<h3 class="text-primary">Screens</h3>
+
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+            <a asp-page="Create" class="btn btn-primary">
+                Create new Screen
+            </a>
+        </div>
+    </div>
+</div>
+
+<br /><br /><br />
+
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>Screen</th>
+        <th>Columes</th>
+        <th>Rows</th>
+        <th>Number of Seats</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model.Screens)
+        {
+            <tr>
+                <td width="15%">@obj.Id</td>
+                <td width="15%">@obj.Columns</td>
+                <td width="15%">@obj.Rows</td>
+                <td width="15%">@(obj.Columns * obj.Rows)</td> 
+                <td>
+                    <a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a asp-page="Delete" asp-route-id="@obj.Id">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

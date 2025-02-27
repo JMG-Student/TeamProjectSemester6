@@ -1,0 +1,38 @@
+﻿@page
+@model CinemaProject.Pages.Admin.Screenings.EditModel
+@{
+}
+
+<form method="post">
+    <input hidden asp-for="Screening.Id" />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary pl-3">Edit Screening</h2>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Screening.Time"></label>
+            <input asp-for="Screening.Time" class="form-control" />
+            <span asp-validation-for="Screening.Time" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Screening.ScreenID"></label>
+            <select asp-for="Screening.ScreenID" asp-items="Model.ScreenList" class="form-control">
+                <option value="">-- Select Screen --</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Screening.FilmID"></label>
+            <select asp-for="Screening.FilmID" asp-items="Model.FilmList" class="form-control">
+                <option value="">-- Select Film --</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a asp-page="Index" class="btn btn-secondary">Back to Index</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

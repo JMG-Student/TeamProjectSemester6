@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-6">
+                <h3 class="text-primary">Film</h3>
+            </div>
+            <div class="col-6 text-end">
+                <a asp-page="Create" class="btn btn-primary">
+                    Create a Film
+                </a>
+            </div>
+        </div>
+
+        <table class="table table-bordered table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Film Title</th>
+                    <th>Description</th>
+                    @*<th>Genre</th>*@
+                    <th>Runtime</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var film in Model.Films)
+                {
+                    <tr>
+                        <td>@film.Title</td>
+                        <td>@film.Description</td>
+                         @*<td>@film.Genres</td>*@
+                        <td>@film.Runtime</td>
+                        <td>
+                            <a asp-page="Edit" asp-route-id="@film.Id" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-page="Delete" asp-route-id="@film.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
