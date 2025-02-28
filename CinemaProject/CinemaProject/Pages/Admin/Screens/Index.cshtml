@@ -18,27 +18,25 @@
     </div>
 </div>
 
-<br /><br /><br />
+<br />
+<br />
+<br />
 
 <table class="table table-bordered table-striped">
     <thead>
-    <tr>
-        <th>Screen</th>
-        <th>Columes</th>
-        <th>Rows</th>
-        <th>Number of Seats</th>
-        <th>Edit</th>
-        <th>Delete</th>
-    </tr>
+        <tr>
+            <th>Screen</th>
+            <th>Capacity</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
     </thead>
     <tbody>
-        @foreach(var obj in Model.Screens)
+        @foreach (var obj in Model.Screens)
         {
             <tr>
-                <td width="15%">@obj.Id</td>
-                <td width="15%">@obj.Columns</td>
-                <td width="15%">@obj.Rows</td>
-                <td width="15%">@(obj.Columns * obj.Rows)</td> 
+                <td width="25%">@obj.Id</td>
+                <td width="25%">@obj.Cap</td>
                 <td>
                     <a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
                 </td>
@@ -49,4 +47,4 @@
             </tr>
         }
     </tbody>
-</table>
+</table> 

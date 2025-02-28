@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CinemaProject.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class test : Migration
+    public partial class _123 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -58,8 +58,7 @@ namespace CinemaProject.DataAccess.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Rows = table.Column<int>(type: "int", nullable: false),
-                    Columns = table.Column<int>(type: "int", nullable: false)
+                    Cap = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -13,26 +13,9 @@
             <input asp-for="@Model.Screen.Id" class="form-control" readonly /> <!-- Read-only -->
         </div>
 
-        @* Select Screen Columns *@
         <div class="mb-3">
-            <label asp-for="@Model.Screen.Columns"></label>
-            <select asp-for="@Model.Screen.Columns" class="form-control">
-                <option value="12">12</option>
-                <option value="20">20</option>
-                <option value="30">30</option>
-            </select>
-            <span asp-validation-for="@Model.Screen.Columns" class="text-danger"></span>
-        </div>
-
-        @* Select Screen Rows *@
-        <div class="mb-3">
-            <label asp-for="@Model.Screen.Rows"></label>
-            <select asp-for="@Model.Screen.Rows" class="form-control">
-                <option value="10">10</option>
-                <option value="15">15</option>
-                <option value="20">20</option>
-            </select>
-            <span asp-validation-for="@Model.Screen.Rows" class="text-danger"></span>
+            <label>Capacity</label>
+            <input type="number" class="form-control" value="120" disabled />
         </div>
         <button type="submit" class="btn btn-primary">Delete</button>
         <a asp-page="Index" class="btn btn-secondary">Back to Index</a>

@@ -23,32 +23,10 @@ namespace CinemaProject.Pages.Admin.Screens
 
         public async Task<IActionResult> OnPost()
         {
-            if (ModelState.IsValid)
-            {
-                _dbContext.Screens.Add(Screen);
-                await _dbContext.SaveChangesAsync();
-
-                // Generate seats for the new screen
-                for (int row = 1; row <= Screen.Rows; row++)
-                {
-                    for (int col = 1; col <= Screen.Columns; col++)
-                    {
-                        var seat = new Seat
-                        {
-                            ScreenId = Screen.Id,
-                            Row = row,
-                            Column = col,
-                            Type = "Standard", // Default seat type
-                            //IsReserved = false
-                            //Booking reserves seat as seat is part of screen and not screening
-                        };
-                        _dbContext.Seats.Add(seat);
-                    }
-                }
-                await _dbContext.SaveChangesAsync();
-            }
+            if (!ModelState.IsValid) return Page();
+            _dbContext.Screens.Add(Screen);
+            await _dbContext.SaveChangesAsync();
             return RedirectToPage("Index");
         }
-
     }
 }

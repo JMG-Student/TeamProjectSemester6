@@ -88,10 +88,7 @@ namespace CinemaProject.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Columns")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Rows")
+                    b.Property<int>("Cap")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -217,17 +214,12 @@ namespace CinemaProject.DataAccess.Migrations
             modelBuilder.Entity("CinemaProject.Models.Models.Seat", b =>
                 {
                     b.HasOne("CinemaProject.Models.Models.Screen", "Screen")
-                        .WithMany("Seats")
+                        .WithMany()
                         .HasForeignKey("ScreenId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Screen");
-                });
-
-            modelBuilder.Entity("CinemaProject.Models.Models.Screen", b =>
-                {
-                    b.Navigation("Seats");
                 });
 #pragma warning restore 612, 618
         }
