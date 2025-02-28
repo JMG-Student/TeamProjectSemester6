@@ -6,7 +6,6 @@
     <title>@ViewData["Title"] - CinemaProject</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/bootstrap.css" asp-append-version="true" />
-    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
     <link rel="stylesheet" href="~/CinemaProject.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -30,7 +29,7 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administration</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" asp-area="" asp-page="/Admin/Films/Index">Films</a>
-                                <!-- <a class="dropdown-item" asp-area="" asp-page="/Admin/Users/Index">Users</a> -->
+                                <a class="dropdown-item" asp-area="" asp-page="/Admin/Genres/Index">Genres</a>
                                 <a class="dropdown-item" asp-area="" asp-page="/Admin/Screens/Index">Screens</a>
                                 <a class="dropdown-item" asp-area="" asp-page="/Admin/Screenings/Index">Screenings</a>
                             </div>

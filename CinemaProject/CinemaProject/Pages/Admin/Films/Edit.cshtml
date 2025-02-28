@@ -31,16 +31,14 @@
             <label asp-for="@Model.Film.PosterLink"></label>
             <input asp-for="@Model.Film.PosterLink" class="form-control" required />
         </div>
-
-       
+ 
         <div class="mb-3">
-            <label asp-for="@Model.Film.Genres"></label>
-            <select asp-for="@Model.Film.Genres" asp-items="Model.GenreList" class="form-control" required>
-                <option value="">-- Select a Genre --</option>
+            <label asp-for="@Model.Film.GenreId"></label>
+            <select asp-for="@Model.Film.GenreId" asp-items="@Model.GenreList" class="form-select">
+                <option disabled selected="selected Genre ---"></option>
             </select>
+            <span asp-validation-for="@Model.Film.GenreId" class="text-danger"></span>
         </div>
-       
-
 
         <div class="mb-3">
             <label asp-for="@Model.Film.Runtime"></label>

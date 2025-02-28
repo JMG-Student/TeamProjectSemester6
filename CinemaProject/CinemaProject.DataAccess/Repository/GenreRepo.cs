@@ -1,5 +1,6 @@
 ﻿using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,9 +24,8 @@ namespace CinemaProject.DataAccess.Repository
 
         public IEnumerable<Genre> GetAll()
         {
-            return _musicDBContext.Genres
-                .Include(a => a.Songs)
-                .ThenInclude(a => a.Artist)
+            return _dbContext.Genres
+                .Include(a => a.Films)
                 .ToList();
         }
     }

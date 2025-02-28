@@ -14,13 +14,16 @@ namespace CinemaProject.Pages.Customer.Home
             _unitOfWork = unitOfWork;
         }
 
-         public IEnumerable<Film> listOfFilms { get; set; }
+        public IEnumerable<Film> listOfFilms { get; set; }
+
+        public IEnumerable<Genre> listOfGenres { get; set; }
 
         [BindProperty(SupportsGet = true)]
         public string? SearchString { get; set; }
         public void OnGet()
         {
             listOfFilms = _unitOfWork.FilmRepo.GetAll();
+            listOfGenres = _unitOfWork.GenreRepo.GetAll();
 
             if (!string.IsNullOrEmpty(SearchString))
             {

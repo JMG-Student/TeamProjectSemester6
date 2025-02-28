@@ -11,6 +11,8 @@ namespace CinemaProject.Services
     {
         IFilmRepo FilmRepo { get; }
 
+        IGenreRepo GenreRepo { get; }
+
         void Save();
     }
 }

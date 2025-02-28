@@ -55,4 +55,8 @@
     <ProjectReference Include="..\CinemaProject.Services\CinemaProject.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\Films\" />
+  </ItemGroup>
+
 </Project>

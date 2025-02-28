@@ -14,7 +14,7 @@ namespace CinemaProject.Pages
 
         public IActionResult OnGet()
         {
-            return RedirectToPage("Customer/Screenings/Index");
+            return RedirectToPage("Customer/Home/Index");
         }
     }
 }
