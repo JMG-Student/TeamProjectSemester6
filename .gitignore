@@ -361,3 +361,22 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build and output directories
+bin/
+obj/
+
+# Entity Framework Migrations
+Migrations/
+
+# NuGet files
+*.nupkg
+*.nuget.props
+*.nuget.targets
