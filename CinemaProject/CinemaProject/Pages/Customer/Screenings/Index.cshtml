@@ -1,41 +1,4 @@
-﻿@* @page
-@model CinemaProject.Pages.Admin.Screenings.IndexModel
-@{
-}
-<div class="container p-3">
-    <div class="row pt-4">
-        <div class="col-6">
-            <h3 class="text-primary">All Screenings This Week</h3>
-        </div>
-    </div>
-</div>
-
-
-<br />
-<br />
-<br />
-
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Film Name</th>
-            <th>Screening Date & Time</th>
-            <th>Screen Number</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var obj in Model.Screenings)
-        {
-            <tr>
-                <td width="50%">@obj.Film.Title</td>
-                <td width="40%">@obj.Time</td>
-                <td width="30%">@obj.ScreenID</td>
-            </tr>
-        }
-    </tbody>
-</table> *@
-
-@page
+﻿@page
 @model CinemaProject.Pages.Customer.ScreeningsModel
 @{
     ViewData["Title"] = "Screenings";

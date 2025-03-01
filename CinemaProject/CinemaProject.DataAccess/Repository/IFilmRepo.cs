@@ -10,7 +10,5 @@ namespace CinemaProject.DataAccess.Repository
     public interface IFilmRepo : IRepository<Film>
     {
         public void Update(Film film);
-
-        //IEnumerable<Film> GetAll();
     }
 }

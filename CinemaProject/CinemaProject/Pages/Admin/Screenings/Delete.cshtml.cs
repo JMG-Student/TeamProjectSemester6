@@ -9,19 +9,16 @@ namespace CinemaProject.Pages.Admin.Screenings
     public class DeleteModel : PageModel
     {
         private readonly AppDBContext _dbContext;
-
         public DeleteModel(AppDBContext dbContext)
         {
             _dbContext = dbContext;
         }
-
         public Screening Screening { get; set; }
         public IEnumerable<SelectListItem> ScreenList { get; set; }
         public IEnumerable<SelectListItem> FilmList { get; set; }
 
         public void OnGet(int id)
         {
-
             Screening = _dbContext.Screenings.Find(id);
 
             // _dbContext.Screen shall be renamed as Screens
@@ -38,8 +35,6 @@ namespace CinemaProject.Pages.Admin.Screenings
                 Text = i.Title,
                 Value = i.Id.ToString(),
             });
-
-
         }
 
         public async Task<IActionResult> OnPost(Screening screening)

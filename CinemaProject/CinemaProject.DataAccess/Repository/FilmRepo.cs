@@ -31,11 +31,5 @@ namespace CinemaProject.DataAccess.Repository
                 filmFromDB.PosterLink = film.PosterLink;
             }
         }
-
-        //public IEnumerable<Film> GetAll()
-        //{
-        //    return _dbContext.Films
-        //        .Include(a => a.Genre);
-        //}
     }
 }

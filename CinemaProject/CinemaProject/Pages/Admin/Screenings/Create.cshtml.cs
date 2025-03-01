@@ -15,7 +15,6 @@ namespace CinemaProject.Pages.Admin.Screenings
         {
             _dbContext = dbContext;
         }
-
         public Screening Screening{ get; set; }
 
         public IEnumerable<SelectListItem> ScreenList { get; set; }
@@ -38,7 +37,6 @@ namespace CinemaProject.Pages.Admin.Screenings
                 Value = i.Id.ToString(),
             });
         }
-
         public async Task<IActionResult> OnPost(Screening screening)
         {
             if (ModelState.IsValid)

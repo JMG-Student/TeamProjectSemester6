@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using CinemaProject.Models.Models;
 
-
-
 namespace CinemaProject.Pages.Admin.Films
 {
     public class IndexModel : PageModel

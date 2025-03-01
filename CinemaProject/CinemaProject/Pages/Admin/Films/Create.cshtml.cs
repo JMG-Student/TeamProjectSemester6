@@ -1,4 +1,3 @@
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using CinemaProject.Models.Models;
@@ -22,7 +21,6 @@ namespace CinemaProject.Pages.Admin.Films
         }
 
         public Film Film { get; set; }
-
         public IEnumerable<SelectListItem> GenreList { get; set; }
 
         public void OnGet()
@@ -33,7 +31,6 @@ namespace CinemaProject.Pages.Admin.Films
                 Value = i.Id.ToString(),
             });
         }
-
         public IActionResult OnPost(Film film)
         {
             string mwmRootFolder = _webHostEnvironment.WebRootPath;

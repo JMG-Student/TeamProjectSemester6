@@ -8,23 +8,19 @@
         <div class="row pb-2">
             <h2 class="text-primary pl-3">Edit Film</h2>
         </div>
-
         <div class="mb-3">
             <label asp-for="@Model.Film.Title"></label>
             <input asp-for="@Model.Film.Title" class="form-control" required />
             <span asp-validation-for="@Model.Film.Title" class="text-danger"></span>
         </div>
-
         <div class="mb-3">
             <label asp-for="@Model.Film.Description"></label>
             <textarea asp-for="@Model.Film.Description" class="form-control" rows="3" required></textarea>
         </div>
-
         <div class="mb-3">
             <label asp-for="@Model.Film.PosterLink">FileUpload</label>
             <input type="file" name="files" id="uploadBox" class="form-control" />
         </div>
-
         <div class="mb-3">
             <label asp-for="@Model.Film.GenreId"></label>
             <select asp-for="@Model.Film.GenreId" asp-items="@Model.GenreList" class="form-select">
@@ -32,16 +28,13 @@
             </select>
             <span asp-validation-for="@Model.Film.GenreId" class="text-danger"></span>
         </div>
-
         <div class="mb-3">
             <label asp-for="@Model.Film.Runtime"></label>
             <input asp-for="@Model.Film.Runtime" type="number" class="form-control" required />
         </div>
-
         <div class="col-3">
             <img src="@Model.Film.PosterLink" />
         </div>
-        
         <div>
             <button type="submit" class="btn btn-primary">Save Changes</button>
             <a asp-page="Index" class="btn btn-secondary">Back to Index</a>

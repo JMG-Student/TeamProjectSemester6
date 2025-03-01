@@ -11,7 +11,7 @@ namespace CinemaProject.Pages.Admin.Screens
         private readonly AppDBContext _dbContext;
 
         [BindProperty]
-        public Screen Screen { get; set; } = new Screen(); // Ensure it's initialized
+        public Screen Screen { get; set; } = new Screen();
 
         public CreateModel(AppDBContext dbContext)
         {
@@ -20,7 +20,6 @@ namespace CinemaProject.Pages.Admin.Screens
         public void OnGet()
         {
         }
-
         public async Task<IActionResult> OnPost()
         {
             if (ModelState.IsValid)
@@ -28,7 +27,6 @@ namespace CinemaProject.Pages.Admin.Screens
                 _dbContext.Screens.Add(Screen);
                 await _dbContext.SaveChangesAsync();
 
-                // Generate seats for the new screen
                 for (int row = 1; row <= Screen.Rows; row++)
                 {
                     for (int col = 1; col <= Screen.Columns; col++)
@@ -38,9 +36,7 @@ namespace CinemaProject.Pages.Admin.Screens
                             ScreenId = Screen.Id,
                             Row = row,
                             Column = col,
-                            Type = "Standard", // Default seat type
-                            //IsReserved = false
-                            //Booking reserves seat as seat is part of screen and not screening
+                            Type = "Standard",
                         };
                         _dbContext.Seats.Add(seat);
                     }
