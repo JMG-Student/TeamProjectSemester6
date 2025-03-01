@@ -41,7 +41,7 @@
                                     </button>
                                 </div>
                                 <div class="d-grid">
-                                    <a class="btn btn-dark btn-sm" style="height: 40px;">Book Tickets</a>
+                                    <a asp-page="/Customer/Screenings/Index" asp-route-filmId="@film.Id" class="btn btn-dark btn-sm" style="height: 40px;">View Screenings</a>
                                 </div>
                             </div>
                         </div>
@@ -54,6 +54,8 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
+                                    Film Length: @film.Runtime minutes
+                                    <br /> <br />
                                     Description: "@film.Description"
                                 </div>
                             </div>

@@ -1,4 +1,4 @@
-﻿@page
+﻿@* @page
 @model CinemaProject.Pages.Admin.Screenings.IndexModel
 @{
 }
@@ -33,4 +33,49 @@
             </tr>
         }
     </tbody>
-</table>
+</table> *@
+
+@page
+@model CinemaProject.Pages.Customer.ScreeningsModel
+@{
+    ViewData["Title"] = "Screenings";
+}
+
+<div class="container">
+    <h2>Screenings</h2>
+
+    @if (Model.Screenings.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Film</th>
+                    <th>Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Screen</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var screening in Model.Screenings)
+                {
+                    var endTime = screening.Time.AddMinutes(screening.Film.Runtime);
+                    <tr>
+                        <td>@screening.Film.Title</td>
+                        <td>@screening.Time.ToString("D")</td>
+                        <td>@screening.Time.ToString("t")</td>
+                        <td>@endTime.ToString("t")</td>
+                        <td>@screening.ScreenID</td>
+                        <td>
+                            <a asp-page="/Customer/BookTickets" asp-route-screeningId="@screening.Id" class="btn btn-primary">Book Tickets</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No screenings found.</p>
+    }
+</div>
