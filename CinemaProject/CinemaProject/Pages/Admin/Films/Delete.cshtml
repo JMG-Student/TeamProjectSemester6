@@ -3,43 +3,18 @@
 @{
 }
 <form method="post">
+    <input hidden asp-for="Film.Id" />
     <div class="border p-3 mt-4">
         <div class="row pb-2">
             <h2 class="text-primary pl-3">Delete Film</h2>
         </div>
-
-
-        <div hidden class="mb-3">
-            <label asp-for="@Model.Film.Id"></label>
-            <input asp-for="@Model.Film.Id" class="form-control" readonly />
-        </div>
-
-
         <div class="mb-3">
             <label asp-for="@Model.Film.Title"></label>
-            <input asp-for="@Model.Film.Title" class="form-control" required />
+            <input asp-for="@Model.Film.Title" class="form-control" readonly required />
         </div>
-
-
-        <div class="mb-3">
-            <label asp-for="@Model.Film.Description"></label>
-            <textarea asp-for="@Model.Film.Description" class="form-control" rows="3" required></textarea>
-        </div>
-
-
-        <div class="mb-3">
-            <label asp-for="@Model.Film.PosterLink"></label>
-            <input asp-for="@Model.Film.PosterLink" class="form-control" required />
-        </div>
-
-        <div class="mb-3">
-            <label asp-for="@Model.Film.Runtime"></label>
-            <input asp-for="@Model.Film.Runtime" type="number" class="form-control" required />
-        </div>
-
-
         <div>
             <button type="submit" class="btn btn-primary">Delete Film</button>
+            <a asp-page="Index" class="btn btn-secondary">Back to Index</a>
         </div>
     </div>
 </form>

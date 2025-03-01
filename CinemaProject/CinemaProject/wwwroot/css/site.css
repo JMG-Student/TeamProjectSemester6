@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+footer {
+    width: 100%;
+    white-space: nowrap;
+    line-height: 40px;
+}
