@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\customer\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\customer\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\screening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\igenrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\igenrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\ifilmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\ifilmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\genrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\genrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\filmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\filmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\admin\\films\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\films\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{1902F8CD-ED14-42FB-B2EC-22B38B3C61F4}|CinemaProject.Services\\CinemaProject.Services.csproj|solutionrelative:cinemaproject.services\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\ifilmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\ifilmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\filmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\filmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1902F8CD-ED14-42FB-B2EC-22B38B3C61F4}|CinemaProject.Services\\CinemaProject.Services.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1902F8CD-ED14-42FB-B2EC-22B38B3C61F4}|CinemaProject.Services\\CinemaProject.Services.csproj|solutionrelative:cinemaproject.services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,24 +75,12 @@
       "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\admin\\films\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\films\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\admin\\films\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\films\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\customer\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\customer\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\admin\\genres\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,14 +163,6 @@
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\genrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\genrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.dataaccess\\repository\\igenrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365FCFB9-2EEE-4044-9C25-6F99BF86B4C8}|CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj|solutionrelative:cinemaproject.dataaccess\\repository\\igenrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\admin\\genres\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\admin\\genres\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -168,14 +184,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|solutionrelative:cinemaproject.models\\models\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DBFC45F-E7F9-4231-9AD5-E283820361E5}|CinemaProject.Models\\CinemaProject.Models.csproj|c:\\users\\ernes\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject.models\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -209,20 +217,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250228235006_test6.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
-              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
-              "RelativeToolTip": "CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Screening.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screening.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Screening.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screening.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Screening.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T23:50:06.708Z",
+              "WhenOpened": "2025-03-01T00:20:08.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Ticket.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:20:06.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\User.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:20:05.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FilmRepo.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\FilmRepo.cs",
               "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\FilmRepo.cs",
@@ -235,20 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "CinemaProject.Services\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\IUnitOfWork.cs",
-              "RelativeToolTip": "CinemaProject.Services\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T13:49:03.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "IFilmRepo.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\IFilmRepo.cs",
               "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\IFilmRepo.cs",
@@ -261,33 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "CinemaProject.Services\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\UnitOfWork.cs",
-              "RelativeToolTip": "CinemaProject.Services\\UnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T13:49:16.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
-              "RelativeToolTip": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T13:47:39.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\IRepository.cs",
@@ -300,20 +295,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Edit.cshtml.cs",
               "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Edit.cshtml.cs",
               "RelativeToolTip": "CinemaProject\\Pages\\Admin\\Films\\Edit.cshtml.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAUwKgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T20:51:46.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
+              "RelativeToolTip": "CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv3IAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T11:15:18.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Seat.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Seat.cs",
+              "RelativeToolTip": "CinemaProject.Models\\Models\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:20:07.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\DataAccess\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:47:39.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Services\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\UnitOfWork.cs",
+              "RelativeToolTip": "CinemaProject.Services\\UnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:49:16.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenreRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T11:38:11.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGenreRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T11:38:20.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\Repository.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\Repository\\Repository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T14:10:07.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CinemaProject.Services\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\IUnitOfWork.cs",
+              "RelativeToolTip": "CinemaProject.Services\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:49:03.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250228235006_test6.cs",
+              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
+              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
+              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
+              "RelativeToolTip": "CinemaProject.DataAccess\\Migrations\\20250228235006_test6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:50:06.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Film.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Film.cs",
               "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Film.cs",
@@ -326,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Edit.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Edit.cshtml",
@@ -339,20 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\Repository.cs",
-              "RelativeToolTip": "CinemaProject.DataAccess\\Repository\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T14:10:07.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Index.cshtml.cs",
@@ -365,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Index.cshtml",
@@ -378,20 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
-              "RelativeToolTip": "CinemaProject\\Pages\\Customer\\Home\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T11:15:18.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Create.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Create.cshtml",
@@ -404,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Delete.cshtml.cs",
@@ -417,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Screens\\Create.cshtml",
@@ -430,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Edit.cshtml.cs",
@@ -443,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Program.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Program.cs",
@@ -456,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Create.cshtml.cs",
@@ -469,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Edit.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Edit.cshtml",
@@ -482,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Films\\Delete.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Films\\Delete.cshtml",
@@ -495,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Customer\\Home\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Customer\\Home\\Index.cshtml.cs",
@@ -508,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Index.cshtml.cs",
@@ -520,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Shared\\_Layout.cshtml",
@@ -533,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "CinemaProject\\wwwroot\\css\\site.css",
@@ -546,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Create.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Create.cshtml",
@@ -559,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Shared\\_Layout.cshtml.css",
@@ -572,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "20250228193112_test4.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250228193112_test4.cs",
               "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Migrations\\20250228193112_test4.cs",
@@ -585,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -598,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Customer\\Screenings\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Customer\\Screenings\\Index.cshtml.cs",
@@ -610,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "20250228171550_test3.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250228171550_test3.cs",
               "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Migrations\\20250228171550_test3.cs",
@@ -622,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Index.cshtml",
@@ -634,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Index.cshtml",
@@ -646,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Index.cshtml.cs",
@@ -658,31 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IGenreRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
-              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
-              "RelativeToolTip": "CinemaProject.DataAccess\\Repository\\IGenreRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T11:38:20.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "GenreRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
-              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
-              "RelativeToolTip": "CinemaProject.DataAccess\\Repository\\GenreRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T11:38:11.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Delete.cshtml.cs",
@@ -694,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Delete.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Delete.cshtml",
@@ -706,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Admin\\Genres\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Admin\\Genres\\Create.cshtml.cs",
@@ -718,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Genre.cs",
@@ -730,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -742,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\appsettings.json",
               "RelativeDocumentMoniker": "CinemaProject\\appsettings.json",
@@ -754,31 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Screen.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screen.cs",
-              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Screen.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screen.cs",
-              "RelativeToolTip": "CinemaProject.Models\\Models\\Screen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:58:06.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Report.cs",
-              "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Report.cs",
-              "ToolTip": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Report.cs",
-              "RelativeToolTip": "CinemaProject.Models\\Models\\Report.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:56:42.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\ernes\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Booking.cs",
