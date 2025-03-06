@@ -1,62 +1,93 @@
 using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
+using CinemaProject.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CinemaProject.Pages.Admin.Films
 {
+    [BindProperties]
     public class EditModel : PageModel
     {
-        private readonly AppDBContext _dbContext;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-       
-        public EditModel(AppDBContext dbContext)
+        public EditModel(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
-            _dbContext = dbContext;
+            _unitOfWork = unitOfWork;
+            _webHostEnvironment = webHostEnvironment;
         }
-        [BindProperty]
+
         public Film Film { get; set; }
 
-        public List<SelectListItem> GenreList { get; set; } = new List<SelectListItem>
-        {
-            new SelectListItem { Value = "Children", Text = "Children" },
-            new SelectListItem { Value = "Action", Text = "Action" },
-            new SelectListItem { Value = "Comedy", Text = "Comedy" },
-            new SelectListItem { Value = "Drama", Text = "Drama" },
-            new SelectListItem { Value = "Horror", Text = "Horror" },
-            new SelectListItem { Value = "Sci-Fi", Text = "Sci-Fi" },
-            new SelectListItem { Value = "Romance", Text = "Romance" },
-            new SelectListItem { Value = "Thriller", Text = "Thriller" },
-            new SelectListItem { Value = "Fantasy", Text = "Fantasy" },
-            new SelectListItem { Value = "Documentary", Text = "Documentary" }
-        };
+        public IEnumerable<SelectListItem> GenreList { get; set; }
 
-
-        public IActionResult OnGet(int id)
+        public void OnGet(int id)
         {
-            Film = _dbContext.Films.Find(id);
-            if (Film == null)
+            Film = _unitOfWork.FilmRepo.Get(id);
+
+            GenreList = _unitOfWork.GenreRepo.GetAll().Select(i => new SelectListItem()
             {
-                return RedirectToPage("Index"); 
-            }
-            return Page();
+                Text = i.Name,
+                Value = i.Id.ToString(),
+            });
         }
-        public async Task<IActionResult> OnPost()
+
+        public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
+            var filmFromDB = _unitOfWork.FilmRepo.Get(Film.Id);
+
+            var files = HttpContext.Request.Form.Files;
+            if (files != null && files.Count > 0)
             {
+                string wwwRootFolder = _webHostEnvironment.WebRootPath;
+                string newFileName = Guid.NewGuid().ToString();
+                var uploadPath = Path.Combine(wwwRootFolder, @"Images\Films");
+                var extension = Path.GetExtension(files[0].FileName);
+
+                if (!string.IsNullOrEmpty(filmFromDB.PosterLink))
+                {
+                    var oldFilePath = Path.Combine(wwwRootFolder, filmFromDB.PosterLink.TrimStart('\\'));
+                    if (System.IO.File.Exists(oldFilePath))
+                    {
+                        System.IO.File.Delete(oldFilePath);
+                    }
+                }
+
+                using (var fileStream = new FileStream(Path.Combine(uploadPath, newFileName + extension), FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                }
+
+                Film.PosterLink = @"\Images\Films\" + newFileName + extension;
+            }
+            else
+            {
+                Film.PosterLink = filmFromDB.PosterLink;
+            }
+
+            filmFromDB.Title = Film.Title;
+            filmFromDB.Description = Film.Description;
+            filmFromDB.GenreId = Film.GenreId;
+            filmFromDB.Runtime = Film.Runtime;
+
+            ModelState.Remove("Film.PosterLink");
+
+            if (!ModelState.IsValid)
+            { 
+                GenreList = _unitOfWork.GenreRepo.GetAll().Select(i => new SelectListItem()
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString(),
+                });
                 return Page();
             }
 
-            _dbContext.Films.Update(Film);
-            await _dbContext.SaveChangesAsync();
+            _unitOfWork.FilmRepo.Update(Film);
+            _unitOfWork.Save();
 
             return RedirectToPage("Index");
         }
-
-       
     }
 }
-
-       

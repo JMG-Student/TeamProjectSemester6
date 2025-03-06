@@ -10,7 +10,7 @@
         </div>
         <div class="mb-3">
             <label asp-for="@Model.Screen.Id"></label>
-            <input asp-for="@Model.Screen.Id" class="form-control" readonly /> <!-- Read-only -->
+            <input asp-for="@Model.Screen.Id" class="form-control" readonly />
         </div>
 
         <div class="mb-3">
@@ -22,9 +22,8 @@
         <a asp-page="Index" class="btn btn-secondary">Back to Index</a>
     </div>
 </form>
-
 @section Scripts {
     @{
-                <partial name="_validationScriptsPartial" />
+        <partial name="_validationScriptsPartial" />
     }
 }

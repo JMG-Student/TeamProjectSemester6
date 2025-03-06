@@ -4,28 +4,24 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using CinemaProject.Models.Models;
 
-
-
 namespace CinemaProject.Pages.Admin.Films
 {
     public class IndexModel : PageModel
     {
-        private readonly AppDBContext _context;
+        private readonly AppDBContext _dbContext;
 
+        public IEnumerable<Film> Films;
 
-        //public List<Models.Models.Film> Films { get; set; }
-        public IEnumerable<Models.Models.Film> Films;
-
-
-        public IndexModel(AppDBContext context)
+        public IndexModel(AppDBContext dbContext)
         {
-            _context = context;
+            _dbContext = dbContext;
         }
 
         public void OnGet()
         {
-            Films = _context.Films;
+            Films = _dbContext.Films
+                .Include(a => a.Genre)
+                .ToList();
         }
-
     }
 }

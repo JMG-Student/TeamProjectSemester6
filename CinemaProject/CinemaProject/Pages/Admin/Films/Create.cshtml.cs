@@ -1,49 +1,70 @@
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using CinemaProject.Models.Models;
 using CinemaProject.DataAccess.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using CinemaProject.Services;
 
 namespace CinemaProject.Pages.Admin.Films
 {
+    [BindProperties]
     public class CreateModel : PageModel
     {
-        private readonly AppDBContext _dbContext;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        [BindProperty]
-        public Film Film { get; set; } = new Film();
-        public List<SelectListItem> GenreList { get; set; } = new List<SelectListItem>
-        {   new SelectListItem { Value = "Children", Text = "Children" },
-            new SelectListItem { Value = "Action", Text = "Action" },
-            new SelectListItem { Value = "Comedy", Text = "Comedy" },
-            new SelectListItem { Value = "Drama", Text = "Drama" },
-            new SelectListItem { Value = "Horror", Text = "Horror" },
-            new SelectListItem { Value = "Sci-Fi", Text = "Sci-Fi" },
-            new SelectListItem { Value = "Romance", Text = "Romance" },
-            new SelectListItem { Value = "Thriller", Text = "Thriller" },
-            new SelectListItem { Value = "Fantasy", Text = "Fantasy" },
-            new SelectListItem { Value = "Documentary", Text = "Documentary" }
-        };
-
-        public CreateModel(AppDBContext dbContext)
+        public CreateModel(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
-            _dbContext = dbContext;
+            _unitOfWork = unitOfWork;
+            _webHostEnvironment = webHostEnvironment;
         }
+
+        public Film Film { get; set; }
+        public IEnumerable<SelectListItem> GenreList { get; set; }
+
         public void OnGet()
         {
+            GenreList = _unitOfWork.GenreRepo.GetAll().Select(i => new SelectListItem()
+            {
+                Text = i.Name,
+                Value = i.Id.ToString(),
+            });
         }
-        public async Task<IActionResult> OnPost()
+        public IActionResult OnPost(Film film)
         {
-            if (!ModelState.IsValid) return Page();
-            _dbContext.Films.Add(Film);
-            await _dbContext.SaveChangesAsync();
+            string mwmRootFolder = _webHostEnvironment.WebRootPath;
+            var files = HttpContext.Request.Form.Files;
+
+            if (files == null || files.Count == 0)
+            {
+                ModelState.AddModelError("", "No file uploaded.");
+                return Page();
+            }
+
+            string new_filename = Guid.NewGuid().ToString();
+            var upload = Path.Combine(mwmRootFolder, @"Images\Films");
+            var extension = Path.GetExtension(files[0].FileName);
+
+            if (!Directory.Exists(upload))
+            {
+                Directory.CreateDirectory(upload);
+            }
+
+            using (var fileStream = new FileStream(Path.Combine(upload, new_filename + extension), FileMode.Create))
+            {
+                files[0].CopyTo(fileStream);
+            }
+
+            film.PosterLink = @"\Images\Films\" + new_filename + extension;
+
+            if (!ModelState.IsValid)
+            {
+                _unitOfWork.FilmRepo.Add(film);
+                _unitOfWork.Save();
+            }
+
             return RedirectToPage("Index");
         }
-
-
-        
-
     }
 }

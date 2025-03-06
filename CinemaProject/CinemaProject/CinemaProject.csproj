@@ -52,6 +52,11 @@
   <ItemGroup>
     <ProjectReference Include="..\CinemaProject.DataAccess\CinemaProject.DataAccess.csproj" />
     <ProjectReference Include="..\CinemaProject.Models\CinemaProject.Models.csproj" />
+    <ProjectReference Include="..\CinemaProject.Services\CinemaProject.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\Films\" />
   </ItemGroup>
 
 </Project>

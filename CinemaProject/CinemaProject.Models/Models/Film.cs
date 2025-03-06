@@ -16,10 +16,12 @@ namespace CinemaProject.Models.Models
         public string Title { get; set; }
         [Required]
         public string Description { get; set; }
-        [Required]
+
         public string PosterLink { get; set; }
-        [Required]
-        public List<string> Genres { get; set; }
+
+        public int GenreId { get; set; }
+        public Genre? Genre { get; set; }
+
         [Required]
         public int Runtime { get; set; }
 

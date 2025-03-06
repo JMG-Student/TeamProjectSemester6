@@ -1,36 +1,44 @@
 ﻿@page
-@model CinemaProject.Pages.Admin.Screenings.IndexModel
+@model CinemaProject.Pages.Customer.ScreeningsModel
 @{
+    ViewData["Title"] = "Screenings";
 }
-<div class="container p-3">
-    <div class="row pt-4">
-        <div class="col-6">
-            <h3 class="text-primary">All Screenings This Week</h3>
-        </div>
-    </div>
+
+<div class="container">
+    <h2>Screenings</h2>
+
+    @if (Model.Screenings.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Film</th>
+                    <th>Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Screen</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var screening in Model.Screenings)
+                {
+                    var endTime = screening.Time.AddMinutes(screening.Film.Runtime);
+                    <tr>
+                        <td>@screening.Film.Title</td>
+                        <td>@screening.Time.ToString("D")</td>
+                        <td>@screening.Time.ToString("t")</td>
+                        <td>@endTime.ToString("t")</td>
+                        <td>@screening.ScreenID</td>
+                        <td>
+                            <a asp-page="/Customer/BookTickets" asp-route-screeningId="@screening.Id" class="btn btn-primary">Book Tickets</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No screenings found.</p>
+    }
 </div>
-
-
-<br />
-<br />
-<br />
-
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Film Name</th>
-            <th>Screening Date & Time</th>
-            <th>Screen Number</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var obj in Model.Screenings)
-        {
-            <tr>
-                <td width="50%">@obj.Film.Title</td>
-                <td width="40%">@obj.Time</td>
-                <td width="30%">@obj.ScreenID</td>
-            </tr>
-        }
-    </tbody>
-</table>

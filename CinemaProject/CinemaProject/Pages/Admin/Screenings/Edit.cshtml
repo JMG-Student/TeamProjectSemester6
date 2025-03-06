@@ -2,7 +2,6 @@
 @model CinemaProject.Pages.Admin.Screenings.EditModel
 @{
 }
-
 <form method="post">
     <input hidden asp-for="Screening.Id" />
     <div class="border p-3 mt-4">
@@ -30,7 +29,6 @@
         <a asp-page="Index" class="btn btn-secondary">Back to Index</a>
     </div>
 </form>
-
 @section Scripts {
     @{
         <partial name="_ValidationScriptsPartial" />

@@ -11,7 +11,7 @@ namespace CinemaProject.Pages.Admin.Screens
         private readonly AppDBContext _dbContext;
 
         [BindProperty]
-        public Screen Screen { get; set; } = new Screen(); // Ensure it's initialized
+        public Screen Screen { get; set; } = new Screen();
 
         public CreateModel(AppDBContext dbContext)
         {
@@ -20,12 +20,17 @@ namespace CinemaProject.Pages.Admin.Screens
         public void OnGet()
         {
         }
-
         public async Task<IActionResult> OnPost()
         {
             if (!ModelState.IsValid) return Page();
             _dbContext.Screens.Add(Screen);
             await _dbContext.SaveChangesAsync();
+                }
+                await _dbContext.SaveChangesAsync();
+            }
+                }
+                await _dbContext.SaveChangesAsync();
+            }
             return RedirectToPage("Index");
         }
     }

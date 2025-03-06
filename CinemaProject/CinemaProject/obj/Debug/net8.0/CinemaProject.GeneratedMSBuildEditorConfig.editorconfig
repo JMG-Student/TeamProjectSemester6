@@ -42,6 +42,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRmlsbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screenings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuaW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,6 +88,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Customer/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Customer/Screenings/Index.cshtml]

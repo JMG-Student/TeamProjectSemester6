@@ -12,13 +12,12 @@
                 </a>
             </div>
         </div>
-
         <table class="table table-bordered table-striped mt-3">
             <thead>
                 <tr>
                     <th>Film Title</th>
                     <th>Description</th>
-                    @*<th>Genre</th>*@
+                    <th>Genre</th>
                     <th>Runtime</th>
                 </tr>
             </thead>
@@ -28,7 +27,7 @@
                     <tr>
                         <td>@film.Title</td>
                         <td>@film.Description</td>
-                         @*<td>@film.Genres</td>*@
+                        <td>@film.Genre.Name</td>
                         <td>@film.Runtime</td>
                         <td>
                             <a asp-page="Edit" asp-route-id="@film.Id" class="btn btn-warning btn-sm">Edit</a>
