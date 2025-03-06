@@ -694,3 +694,5 @@ C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject
 C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\obj\Debug\net8.0\CinemaProject.pdb
 C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\obj\Debug\net8.0\CinemaProject.genruntimeconfig.cache
 C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\obj\Debug\net8.0\ref\CinemaProject.dll
+C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\bin\Debug\net8.0\CinemaProject.Services.dll
+C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\bin\Debug\net8.0\CinemaProject.Services.pdb

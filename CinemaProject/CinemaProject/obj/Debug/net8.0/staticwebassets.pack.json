@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\CinemaProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\wwwroot\\Images\\Films\\75311d4f-b686-448e-bd07-97124856aafd.jpg",
+      "PackagePath": "staticwebassets\\Images\\Films\\75311d4f-b686-448e-bd07-97124856aafd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\wwwroot\\Images\\Films\\c59a44a2-c07b-4cf1-b558-7a0b39106980.jpg",
+      "PackagePath": "staticwebassets\\Images\\Films\\c59a44a2-c07b-4cf1-b558-7a0b39106980.jpg"
+    },
+    {
       "Id": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },

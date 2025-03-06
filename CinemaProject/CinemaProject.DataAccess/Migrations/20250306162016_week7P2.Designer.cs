@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaProject.DataAccess.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250228113541_123")]
-    partial class _123
+    [Migration("20250306162016_week7P2")]
+    partial class week7P2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,9 +50,8 @@ namespace CinemaProject.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("Genres")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("GenreId")
+                        .HasColumnType("int");
 
                     b.Property<string>("PosterLink")
                         .IsRequired()
@@ -67,7 +66,26 @@ namespace CinemaProject.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("GenreId");
+
                     b.ToTable("Films");
+                });
+
+            modelBuilder.Entity("CinemaProject.Models.Models.Genre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Genres");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Report", b =>
@@ -195,6 +213,17 @@ namespace CinemaProject.DataAccess.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("CinemaProject.Models.Models.Film", b =>
+                {
+                    b.HasOne("CinemaProject.Models.Models.Genre", "Genre")
+                        .WithMany("Films")
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Genre");
+                });
+
             modelBuilder.Entity("CinemaProject.Models.Models.Screening", b =>
                 {
                     b.HasOne("CinemaProject.Models.Models.Film", "Film")
@@ -223,6 +252,11 @@ namespace CinemaProject.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Screen");
+                });
+
+            modelBuilder.Entity("CinemaProject.Models.Models.Genre", b =>
+                {
+                    b.Navigation("Films");
                 });
 #pragma warning restore 612, 618
         }

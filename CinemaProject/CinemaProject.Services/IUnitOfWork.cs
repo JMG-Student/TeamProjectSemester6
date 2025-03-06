@@ -13,6 +13,8 @@ namespace CinemaProject.Services
 
         IGenreRepo GenreRepo { get; }
 
+        IScreenRepo ScreenRepo { get; }
+
         void Save();
     }
 }

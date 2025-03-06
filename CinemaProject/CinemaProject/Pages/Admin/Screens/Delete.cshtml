@@ -13,11 +13,6 @@
             <input asp-for="@Model.Screen.Id" class="form-control" readonly />
         </div>
 
-        @* Select Screen Columns *@
-            <label>Capacity</label>
-            <input type="number" class="form-control" value="120" disabled />
-            <span asp-validation-for="@Model.Screen.Rows" class="text-danger"></span>
-        </div>
         <button type="submit" class="btn btn-primary">Delete</button>
         <a asp-page="Index" class="btn btn-secondary">Back to Index</a>
     </div>

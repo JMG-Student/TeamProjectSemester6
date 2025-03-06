@@ -17,11 +17,14 @@ namespace CinemaProject.Services
 
         public IGenreRepo GenreRepo { get; private set; }
 
+        public IScreenRepo ScreenRepo { get; private set; }
+
         public UnitOfWork(AppDBContext appDBContext)
         {
             _dbContext = appDBContext;
             FilmRepo = new FilmRepo(_dbContext);
             GenreRepo = new GenreRepo(_dbContext);
+            ScreenRepo = new ScreenRepo(_dbContext);
         }
 
         public void Dispose()
