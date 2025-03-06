@@ -1,41 +1,24 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
-using Microsoft.EntityFrameworkCore;
-using CinemaProject.Services;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CinemaProject.Pages.Admin.Screens
 {
-
     public class IndexModel : PageModel
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly AppDBContext _dbContext;
+        public IEnumerable<Screen> screens { get; set; }  // ✅ Changed 'Screen' to 'screens' to match Razor Page
 
-        public IEnumerable<Screen> screens;
-
-        public IndexModel(IUnitOfWork unitOfWork)
+        public IndexModel(AppDBContext dBContext)
         {
-            _unitOfWork = unitOfWork;
+            _dbContext = dBContext;
         }
+
         public void OnGet()
         {
-            screens = _unitOfWork.ScreenRepo.GetAll();
+            screens = _dbContext.Screens.ToList(); // ✅ Make sure to fetch data properly
         }
     }
 }
-
-
-//public class IndexModel : PageModel
-//{
-//private readonly AppDBContext _dbContext;
-//public IEnumerable<Models.Models.Screen> Screens;
-//public IndexModel(AppDBContext dBContext)
-//{
-//    _dbContext = dBContext;
-//}
-//        public void OnGet()
-//        {
-//            Screens = _dbContext.Screens;
-//        }
-//    }
-//}

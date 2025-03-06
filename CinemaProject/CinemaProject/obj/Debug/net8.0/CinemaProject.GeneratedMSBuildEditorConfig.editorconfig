@@ -17,111 +17,127 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CinemaProject
 build_property.RootNamespace = CinemaProject
-build_property.ProjectDir = C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject\
+build_property.ProjectDir = C:\Users\L00170098\source\repos\TeamProjectSemester6\.github\CinemaProject\CinemaProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\L00170098\Source\Repos\TeamProjectSemester6\CinemaProject\CinemaProject
+build_property.MSBuildProjectDirectory = C:\Users\L00170098\source\repos\TeamProjectSemester6\.github\CinemaProject\CinemaProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Films/Create.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Capacity/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2FwYWNpdHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Capacity/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2FwYWNpdHlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Capacity/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2FwYWNpdHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Capacity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2FwYWNpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Films/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRmlsbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Films/Delete.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Films/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRmlsbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Films/Edit.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Films/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRmlsbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Films/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Films/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRmlsbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Create.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Genres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Delete.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Genres/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Edit.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Genres/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Genres/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Genres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cR2VucmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screenings/Create.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screenings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuaW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screenings/Delete.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screenings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuaW5nc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screenings/Edit.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screenings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuaW5nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screenings/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screenings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuaW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Create.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screens/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Delete.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screens/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Edit.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screens/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Admin/Screens/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Admin/Screens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2NyZWVuc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Customer/Home/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Customer/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Customer/Screenings/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Customer/Screenings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcU2NyZWVuaW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Error.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Index.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Privacy.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/_ViewImports.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/_ViewStart.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/L00170098/Source/Repos/TeamProjectSemester6/CinemaProject/CinemaProject/Pages/Shared/_Layout.cshtml]
+[C:/Users/L00170098/source/repos/TeamProjectSemester6/.github/CinemaProject/CinemaProject/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ydek8xh5o8

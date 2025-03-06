@@ -25,7 +25,6 @@
     <None Include="Pages\Admin\Screens\Create.cshtml" />
     <None Include="Pages\Admin\Screens\Delete.cshtml" />
     <None Include="Pages\Admin\Screens\Edit.cshtml" />
-    <None Include="Pages\Admin\Screens\Index.cshtml" />
     <None Include="Pages\Customer\Screenings\Index.cshtml" />
     <None Include="Pages\Error.cshtml" />
     <None Include="Pages\Index.cshtml" />

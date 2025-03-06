@@ -7,15 +7,13 @@ using System.Threading.Tasks;
 
 namespace CinemaProject.Models.Models
 {
-    public class Screen
+    public class Cap
     {
         [Key]
         public int Id { get; set; }
-        //have it set to defaukt cap of 120
+
         [Required]
-        public int Cap { get; set; }
-
-
-        //public List<Seat>? Seats { get; set; }
+        public int Capacity { get; set; }
+        [Required]
     }
 }

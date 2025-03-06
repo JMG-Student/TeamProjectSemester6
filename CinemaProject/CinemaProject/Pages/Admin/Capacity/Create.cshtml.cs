@@ -14,7 +14,7 @@ namespace CinemaProject.Pages.Admin.Capacity
                 _unitOfWork = unitOfWork;
             }
 
-            public Genre Genre { get; set; }
+            public Cap cap { get; set; }
             public void OnGet()
             {
             }

@@ -18,6 +18,7 @@ namespace CinemaProject.DataAccess.DataAccess
         public DbSet<Screen> Screens { get; set; }
         public DbSet<Screening> Screenings { get; set; }
         public DbSet<Seat> Seats { get; set; }
+        public DbSet<Cap> Caps { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Genre> Genres { get; set; }
