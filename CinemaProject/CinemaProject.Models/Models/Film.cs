@@ -20,7 +20,7 @@ namespace CinemaProject.Models.Models
         public string PosterLink { get; set; }
 
         public int GenreId { get; set; }
-        [Url]
+       
         public string TrailerLink { get; set; }
         public Genre? Genre { get; set; }
 
