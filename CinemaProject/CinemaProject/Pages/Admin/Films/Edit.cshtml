@@ -32,6 +32,11 @@
             <label asp-for="@Model.Film.Runtime"></label>
             <input asp-for="@Model.Film.Runtime" type="number" class="form-control" required />
         </div>
+        <div class="mb-3">
+            <label asp-for="@Model.Film.TrailerLink">YouTube Trailer Link</label>
+            <input asp-for="@Model.Film.TrailerLink" type="url" class="form-control" placeholder="Enter YouTube Embed Link (e.g., https://www.youtube.com/embed/VIDEO_ID)" required />
+            <span asp-validation-for="@Model.Film.TrailerLink" class="text-danger"></span>
+        </div>
         <div class="col-3">
             <img src="@Model.Film.PosterLink" />
         </div>
