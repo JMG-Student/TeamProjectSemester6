@@ -1,8 +1,9 @@
 ﻿@page
-@model CinemaProject.Pages.Admin.Capacitys.CapacityCreate
+@model CinemaProject.Pages.Admin.Capacities.DeleteModel
 @{
 }
-<h2>Create New Capacity</h2>
+
+<h2>Delete Capacity</h2>
 
 <form method="post">
     <input type="hidden" asp-for="Cap.Id" />
@@ -11,6 +12,6 @@
         <input asp-for="Cap.Capacity" class="form-control" />
         <span asp-validation-for="Cap.Capacity" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-warning">Update</button>
+    <button type="submit" class="btn btn-warning">Delete</button>
     <a asp-page="Index" class="btn btn-secondary">Cancel</a>
 </form>

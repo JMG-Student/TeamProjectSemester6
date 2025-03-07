@@ -27,6 +27,7 @@ namespace CinemaProject.Services
             FilmRepo = new FilmRepo(_dbContext);
             GenreRepo = new GenreRepo(_dbContext);
             ScreenRepo = new ScreenRepo(_dbContext);
+            CapacityRepo = new CapacityRepo(_dbContext);
         }
 
         public void Dispose()

@@ -1,5 +1,6 @@
 ﻿using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,13 @@ namespace CinemaProject.DataAccess.Repository
         {
             _dbContext = dbContext;
         }
+
+        public Cap Get(int id)
+        {
+            return _dbContext.Caps.Find(id);
+        }
+
+
 
     }
 }

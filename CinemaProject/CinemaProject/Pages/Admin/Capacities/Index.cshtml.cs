@@ -2,7 +2,7 @@ using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CinemaProject.Pages.Admin.Capacity
+namespace CinemaProject.Pages.Admin.Capacities
 {
     public class IndexModel : PageModel
     {

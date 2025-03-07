@@ -3,7 +3,7 @@ using CinemaProject.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CinemaProject.Pages.Admin.Capacity
+namespace CinemaProject.Pages.Admin.Genres
 {
     public class CreateModel : PageModel
     {

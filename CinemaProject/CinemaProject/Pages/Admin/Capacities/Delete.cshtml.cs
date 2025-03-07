@@ -3,7 +3,7 @@ using CinemaProject.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CinemaProject.Pages.Admin.Capacitys
+namespace CinemaProject.Pages.Admin.Capacities
 {
     public class DeleteModel : PageModel
     {
@@ -20,14 +20,27 @@ namespace CinemaProject.Pages.Admin.Capacitys
             Cap = _unitOfWork.CapacityRepo.Get(id);
         }
 
-        public IActionResult OnPost(Cap cap)
+        public IActionResult OnPost(int id)
         {
-            if (ModelState.IsValid)
+            if (id <= 0)
             {
-                _unitOfWork.CapacityRepo.Delete(Cap);
-                _unitOfWork.Save();
+                ModelState.AddModelError("", "Invalid ID provided.");
+                return Page();
             }
+
+            var capToDelete = _unitOfWork.CapacityRepo.Get(id);
+
+            if (capToDelete == null)
+            {
+                ModelState.AddModelError("", $"Error: No capacity found with ID {id}.");
+                return Page();
+            }
+
+            _unitOfWork.CapacityRepo.Delete(capToDelete);
+            _unitOfWork.Save();
+
             return RedirectToPage("Index");
         }
+
     }
 }
