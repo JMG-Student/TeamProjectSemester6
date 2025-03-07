@@ -1,0 +1,43 @@
+﻿@page "{filmId:int}"
+@model CinemaProject.Pages.Customer.Bookings.BookTicketsModel
+@{
+    ViewData["Title"] = "Book a Ticket";
+}
+
+<h2 class="text-success">Book a Ticket</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Select Screening</label>
+        <select class="form-control" asp-for="Booking.ScreeningId">
+            <option value="">-- Select a Screening --</option>
+            @foreach (var screening in Model.Screenings)
+            {
+                <option value="@screening.Id">
+                    @screening.Time.ToString("dddd, MMM dd yyyy - HH:mm") (Screen @screening.ScreenID)
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ticket Type</label>
+        <select class="form-control" asp-for="TicketType">
+            <option value="Adult">Adult - €10</option>
+            <option value="Child">Child - €7</option>
+            <option value="Senior">Senior - €8</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Number of Tickets</label>
+        <input type="number" asp-for="NumberOfTickets" class="form-control" min="1" max="10" value="1" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Total Price</label>
+        <input type="text" asp-for="Booking.Price" class="form-control" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-success">Confirm Booking</button>
+</form>

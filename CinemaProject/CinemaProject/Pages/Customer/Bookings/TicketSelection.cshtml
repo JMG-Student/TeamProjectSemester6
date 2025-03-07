@@ -1,0 +1,66 @@
+﻿@page
+@model CinemaProject.Pages.Customer.Bookings.TicketSelectionModel
+@{
+    ViewData["Title"] = "Select Tickets";
+}
+<h2>Select Your Tickets for @Model.Film.Title</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="FilmId" />
+
+    <!-- Choose Screening (Date & Time) -->
+    <div class="form-group">
+        <label>Select Date & Time</label>
+        <select asp-for="ScreeningId" class="form-control" required>
+            @foreach (var screening in Model.Screenings)
+            {
+                <option value="@screening.Id">
+                    @screening.Time.ToString("dddd, MMM dd yyyy - hh:mm tt")
+                </option>
+            }
+        </select>
+    </div>
+
+    <!-- Ticket Selection -->
+    <h4>Ticket Selection</h4>
+    <div class="form-group">
+        <label>Adult</label>
+        <div class="d-flex">
+            <button type="button" class="btn btn-secondary" onclick="changeQuantity('Adult', -1)">-</button>
+            <input type="text" id="Adult" name="AdultTickets" class="form-control text-center" value="0" readonly />
+            <button type="button" class="btn btn-secondary" onclick="changeQuantity('Adult', 1)">+</button>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Child</label>
+        <div class="d-flex">
+            <button type="button" class="btn btn-secondary" onclick="changeQuantity('Child', -1)">-</button>
+            <input type="text" id="Child" name="ChildTickets" class="form-control text-center" value="0" readonly />
+            <button type="button" class="btn btn-secondary" onclick="changeQuantity('Child', 1)">+</button>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>OAP</label>
+        <div class="d-flex">
+            <button type="button" class="btn btn-secondary" onclick="changeQuantity('OAP', -1)">-</button>
+            <input type="text" id="OAP" name="OAPTickets" class="form-control text-center" value="0" readonly />
+            <button type="button" class="btn btn-secondary" onclick="changeQuantity('OAP', 1)">+</button>
+        </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary mt-3">Proceed to Booking</button>
+</form>
+
+<!-- JavaScript for Ticket Selection -->
+<script>
+    function changeQuantity(type, change) {
+        var input = document.getElementById(type);
+        var currentValue = parseInt(input.value);
+        if (currentValue + change >= 0) {
+            input.value = currentValue + change;
+        }
+    }
+</script>

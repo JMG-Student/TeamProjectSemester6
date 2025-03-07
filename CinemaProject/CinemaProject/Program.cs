@@ -11,6 +11,10 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<BookingService>();
+builder.Services.AddScoped<FilmService>();
+builder.Services.AddScoped<ScreeningService>();
+
 
 var app = builder.Build();
 

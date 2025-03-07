@@ -1,0 +1,43 @@
+﻿@page
+@model CinemaProject.Pages.Customer.Bookings.ViewBookingsModel
+@{
+    ViewData["Title"] = "My Bookings";
+}
+<h2>My Bookings</h2>
+
+@if (Model.Bookings.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Film</th>
+                <th>Screening Time</th>
+                <th>Seat</th>
+                <th>Price</th>
+                <th>Booking Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model.Bookings)
+            {
+                <tr>
+                    <td>@booking.Screening.Film.Title</td>
+                    <td>@booking.Screening.Time</td>
+                    <td>@booking.SeatId</td>
+                    <td>@booking.Price</td>
+                    <td>@booking.BookingDate</td>
+                    <td>
+                        <form method="post" asp-page-handler="Delete" asp-route-id="@booking.Id">
+                            <button type="submit" class="btn btn-danger">Cancel</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No bookings found.</p>
+}

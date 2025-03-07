@@ -21,5 +21,14 @@ namespace CinemaProject.DataAccess.DataAccess
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Booking>()
+                .Property(b => b.Price)
+                .HasPrecision(18, 2); 
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
+
 }
