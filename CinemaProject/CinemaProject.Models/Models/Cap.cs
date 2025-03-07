@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace CinemaProject.Models.Models
 {
@@ -14,6 +9,5 @@ namespace CinemaProject.Models.Models
 
         [Required]
         public int Capacity { get; set; }
-        [Required]
     }
 }

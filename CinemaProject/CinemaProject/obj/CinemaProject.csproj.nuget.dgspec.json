@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject\\CinemaProject.csproj": {}
+    "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
+    "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj",
         "projectName": "CinemaProject.DataAccess",
-        "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj",
+        "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj",
         "packagesPath": "C:\\Users\\L00170098\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\L00170098\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
-                "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj"
+              "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
+                "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj"
               }
             }
           }
@@ -91,25 +86,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
+    "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
+        "projectUniqueName": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
         "projectName": "CinemaProject.Models",
-        "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
+        "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj",
         "packagesPath": "C:\\Users\\L00170098\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\obj\\",
+        "outputPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\L00170098\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,7 +108,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -156,25 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj": {
+    "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj",
+        "projectUniqueName": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj",
         "projectName": "CinemaProject.Services",
-        "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj",
+        "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj",
         "packagesPath": "C:\\Users\\L00170098\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Services\\obj\\",
+        "outputPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\L00170098\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,15 +168,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj"
+              "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj"
               }
             }
           }
@@ -225,25 +210,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject\\CinemaProject.csproj": {
+    "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+        "projectUniqueName": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
         "projectName": "CinemaProject",
-        "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
+        "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\CinemaProject.csproj",
         "packagesPath": "C:\\Users\\L00170098\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject\\obj\\",
+        "outputPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\L00170098\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,21 +232,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj"
+              "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\CinemaProject.DataAccess.csproj"
               },
-              "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
-                "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj"
+              "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj": {
+                "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\CinemaProject.Models.csproj"
               },
-              "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj": {
-                "projectPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\.github\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj"
+              "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj": {
+                "projectPath": "C:\\Users\\L00170098\\Source\\Repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Services\\CinemaProject.Services.csproj"
               }
             }
           }
@@ -325,7 +305,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

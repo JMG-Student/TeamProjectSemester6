@@ -19,6 +19,8 @@ namespace CinemaProject.Services
 
         public IScreenRepo ScreenRepo { get; private set; }
 
+        public ICapacityRepo CapacityRepo { get; private set; }
+
         public UnitOfWork(AppDBContext appDBContext)
         {
             _dbContext = appDBContext;

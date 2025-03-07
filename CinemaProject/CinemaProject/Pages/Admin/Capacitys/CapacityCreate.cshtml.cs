@@ -1,30 +1,34 @@
 using CinemaProject.Models.Models;
 using CinemaProject.Services;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace CinemaProject.Pages.Admin.Capacity
 {
-    public class EditModel : PageModel
+    [BindProperties]
+    public class CapacityCreateModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;
 
-        public EditModel(IUnitOfWork unitOfWork)
+        public CapacityCreateModel(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
-        public Genre Genre { get; set; }
-        public void OnGet(int id)
+        [BindProperty]
+        public Cap Cap { get; set; }
+
+        public void OnGet()
         {
-            Genre = _unitOfWork.GenreRepo.Get(id);
+            Cap = new Cap();
         }
 
-        public IActionResult OnPost(Genre genre)
+        public IActionResult OnPost(Cap cap)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.GenreRepo.Update(genre);
+                _unitOfWork.CapacityRepo.Add(cap);
                 _unitOfWork.Save();
             }
             return RedirectToPage("Index");

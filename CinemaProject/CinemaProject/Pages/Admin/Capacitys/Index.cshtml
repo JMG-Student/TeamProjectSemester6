@@ -1,0 +1,43 @@
+﻿@page
+@model CinemaProject.Pages.Admin.Capacity.IndexModel
+<h2>Add Screen Capacity</h2>
+
+<h3 class="text-primary">Capacity</h3>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6"></div>
+        <div class="col-6">
+            <a asp-page="Create" class="btn btn-primary">
+                Create Capacity
+            </a>
+        </div>
+    </div>
+</div>
+
+<br />
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Capacity</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Model.Caps)  
+        {
+                <tr>
+                    <td width="15%">@obj.Id</td>
+                    <td width="15%">@obj.Capacity</td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-page="Delete" asp-route-id="@obj.Id">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

@@ -3,7 +3,7 @@ using CinemaProject.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CinemaProject.Pages.Admin.Capacity
+namespace CinemaProject.Pages.Admin.Capacitys
 {
     public class DeleteModel : PageModel
     {
@@ -14,17 +14,17 @@ namespace CinemaProject.Pages.Admin.Capacity
             _unitOfWork = unitOfWork;
         }
 
-        public Genre Genre { get; set; }
+        public Cap Cap { get; set; }
         public void OnGet(int id)
         {
-            Genre = _unitOfWork.GenreRepo.Get(id);
+            Cap = _unitOfWork.CapacityRepo.Get(id);
         }
 
-        public IActionResult OnPost(Genre genre)
+        public IActionResult OnPost(Cap cap)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.GenreRepo.Delete(genre);
+                _unitOfWork.CapacityRepo.Delete(Cap);
                 _unitOfWork.Save();
             }
             return RedirectToPage("Index");

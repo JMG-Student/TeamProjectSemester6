@@ -9,7 +9,7 @@ namespace CinemaProject.Pages.Admin.Screens
     public class IndexModel : PageModel
     {
         private readonly AppDBContext _dbContext;
-        public IEnumerable<Screen> screens { get; set; }  // ✅ Changed 'Screen' to 'screens' to match Razor Page
+        public IEnumerable<Screen> screens { get; set; } 
 
         public IndexModel(AppDBContext dBContext)
         {
@@ -18,7 +18,7 @@ namespace CinemaProject.Pages.Admin.Screens
 
         public void OnGet()
         {
-            screens = _dbContext.Screens.ToList(); // ✅ Make sure to fetch data properly
+            screens = _dbContext.Screens.ToList(); 
         }
     }
 }
