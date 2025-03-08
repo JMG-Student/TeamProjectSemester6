@@ -9,7 +9,13 @@
         </div>
         <div class="mb-3">
             <label>Capacity</label>
-            <input type="number" class="form-control" value="120" disabled />
+            <select class="form-control" asp-for="Screen.CapacityId">
+                <option value="">Select Capacity</option>
+                @foreach (var capacity in Model.Capacities)
+                {
+                        <option value="@capacity.Id">@capacity.Capacity</option>
+                }
+            </select>
         </div>
 
         <button type="submit" class="btn btn-primary">Create</button>

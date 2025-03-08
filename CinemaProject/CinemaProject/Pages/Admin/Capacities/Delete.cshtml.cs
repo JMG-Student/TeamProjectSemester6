@@ -14,7 +14,8 @@ namespace CinemaProject.Pages.Admin.Capacities
             _unitOfWork = unitOfWork;
         }
 
-        public Cap Cap { get; set; }
+        public Cap Cap { get; set; } 
+     
         public void OnGet(int id)
         {
             Cap = _unitOfWork.CapacityRepo.Get(id);
