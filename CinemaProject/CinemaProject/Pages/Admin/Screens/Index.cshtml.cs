@@ -3,6 +3,7 @@ using CinemaProject.DataAccess.DataAccess;
 using CinemaProject.Models.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace CinemaProject.Pages.Admin.Screens
 {
@@ -18,7 +19,9 @@ namespace CinemaProject.Pages.Admin.Screens
 
         public void OnGet()
         {
-            screens = _dbContext.Screens.ToList(); 
+            screens = _dbContext.Screens
+                       .Include(s => s.Cap) 
+                       .ToList();
         }
     }
 }

@@ -13,6 +13,7 @@ namespace CinemaProject.Models.Models
         public int Id { get; set; }
         //have it set to defaukt cap of 120
         [Required]
+        public int CapId { get; set; }
         public Cap? Cap { get; set; }
 
 

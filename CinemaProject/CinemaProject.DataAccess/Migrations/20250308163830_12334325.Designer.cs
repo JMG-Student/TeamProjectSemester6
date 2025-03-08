@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaProject.DataAccess.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250306162016_week7P2")]
-    partial class week7P2
+    [Migration("20250308163830_12334325")]
+    partial class _12334325
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,6 +36,22 @@ namespace CinemaProject.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Bookings");
+                });
+
+            modelBuilder.Entity("CinemaProject.Models.Models.Cap", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("Capacity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Caps");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Film", b =>
@@ -109,10 +125,12 @@ namespace CinemaProject.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Cap")
+                    b.Property<int>("CapId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CapId");
 
                     b.ToTable("Screens");
                 });
@@ -224,6 +242,17 @@ namespace CinemaProject.DataAccess.Migrations
                     b.Navigation("Genre");
                 });
 
+            modelBuilder.Entity("CinemaProject.Models.Models.Screen", b =>
+                {
+                    b.HasOne("CinemaProject.Models.Models.Cap", "Cap")
+                        .WithMany("Screens")
+                        .HasForeignKey("CapId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cap");
+                });
+
             modelBuilder.Entity("CinemaProject.Models.Models.Screening", b =>
                 {
                     b.HasOne("CinemaProject.Models.Models.Film", "Film")
@@ -252,6 +281,11 @@ namespace CinemaProject.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Screen");
+                });
+
+            modelBuilder.Entity("CinemaProject.Models.Models.Cap", b =>
+                {
+                    b.Navigation("Screens");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Genre", b =>

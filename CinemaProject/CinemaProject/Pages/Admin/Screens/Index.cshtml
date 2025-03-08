@@ -27,11 +27,11 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var obj in Model.screens)  // Ensure this matches the property in IndexModel.cs
+        @foreach (var obj in Model.screens) 
         {
             <tr>
                 <td width="15%">@obj.Id</td>
-                <td width="15%">@obj.Cap</td>
+                <td width="15%">@obj.Cap.Capacity</td> 
                 <td>
                     <a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
                 </td>

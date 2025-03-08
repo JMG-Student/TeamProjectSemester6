@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CinemaProject.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class week7P2 : Migration
+    public partial class _12334325 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,6 +21,19 @@ namespace CinemaProject.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Bookings", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Caps",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Capacity = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Caps", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -49,19 +62,6 @@ namespace CinemaProject.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Screens",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Cap = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Screens", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Tickets",
                 columns: table => new
                 {
@@ -87,6 +87,25 @@ namespace CinemaProject.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Screens",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CapId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Screens", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Screens_Caps_CapId",
+                        column: x => x.CapId,
+                        principalTable: "Caps",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -177,6 +196,11 @@ namespace CinemaProject.DataAccess.Migrations
                 column: "ScreenID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Screens_CapId",
+                table: "Screens",
+                column: "CapId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Seats_ScreenId",
                 table: "Seats",
                 column: "ScreenId");
@@ -211,6 +235,9 @@ namespace CinemaProject.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "Genres");
+
+            migrationBuilder.DropTable(
+                name: "Caps");
         }
     }
 }
