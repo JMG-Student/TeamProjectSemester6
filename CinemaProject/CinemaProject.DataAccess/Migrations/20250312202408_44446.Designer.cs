@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaProject.DataAccess.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250308163830_12334325")]
-    partial class _12334325
+    [Migration("20250312202408_44446")]
+    partial class _44446
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

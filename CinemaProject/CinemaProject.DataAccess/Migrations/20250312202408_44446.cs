@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CinemaProject.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class _12334325 : Migration
+    public partial class _44446 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
