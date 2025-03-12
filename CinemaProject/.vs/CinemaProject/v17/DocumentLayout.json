@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250312202408_44446.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CinemaProject.DataAccess\\Migrations\\20250312202408_44446.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|c:\\users\\l00170098\\source\\repos\\teamprojectsemester6\\cinemaproject\\cinemaproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A5AF302-D594-40E2-A547-2436A5C30380}|CinemaProject\\CinemaProject.csproj|solutionrelative:cinemaproject\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,24 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250312202408_44446.cs",
-              "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250312202408_44446.cs",
-              "RelativeDocumentMoniker": "CinemaProject.DataAccess\\Migrations\\20250312202408_44446.cs",
-              "ToolTip": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.DataAccess\\Migrations\\20250312202408_44446.cs",
-              "RelativeToolTip": "CinemaProject.DataAccess\\Migrations\\20250312202408_44446.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:24:09.098Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CinemaProject\\Pages\\Shared\\_Layout.cshtml",
@@ -68,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\appsettings.json",
               "RelativeDocumentMoniker": "CinemaProject\\appsettings.json",
@@ -80,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject\\Program.cs",
               "RelativeDocumentMoniker": "CinemaProject\\Program.cs",
@@ -92,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Screen.cs",
               "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Screen.cs",
               "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Screen.cs",
@@ -104,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Report.cs",
               "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Report.cs",
@@ -116,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\L00170098\\source\\repos\\TeamProjectSemester6\\CinemaProject\\CinemaProject.Models\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "CinemaProject.Models\\Models\\Booking.cs",
