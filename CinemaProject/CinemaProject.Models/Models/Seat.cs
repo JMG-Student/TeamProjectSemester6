@@ -14,11 +14,7 @@ namespace CinemaProject.Models.Models
         public int Id { get; set; }
 
         [Required]
-        public int Row { get; set; }
-        [Required]
-        public int Column { get; set; }
-        [Required]
-        public string Type { get; set; }
+        public string? Type { get; set; }
 
         [ForeignKey("Screen")]
         public int ScreenId { get; set; }
