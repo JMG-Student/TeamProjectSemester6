@@ -11,12 +11,11 @@ namespace CinemaProject.Models.Models
     {
         [Key]
         public int Id { get; set; }
-        //have it set to defaukt cap of 120
+        
         [Required]
         public int CapId { get; set; }
         public Cap? Cap { get; set; }
 
-
-        //public List<Seat>? Seats { get; set; }
+        public List<Seat>? Seats { get; set; }
     }
 }

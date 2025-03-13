@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CinemaProject.DataAccess.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250312205627_qwertyu")]
-    partial class qwertyu
+    [Migration("20250313141838_753951")]
+    partial class _753951
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,30 +33,25 @@ namespace CinemaProject.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("BookingDate")
-                        .HasColumnType("datetime2");
+                    b.HasKey("Id");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                    b.ToTable("Bookings");
+                });
 
-                    b.Property<int>("ScreeningId")
+            modelBuilder.Entity("CinemaProject.Models.Models.Cap", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("SeatId")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("Capacity")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ScreeningId");
-
-                    b.HasIndex("SeatId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Bookings");
+                    b.ToTable("Caps");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Film", b =>
@@ -134,13 +129,12 @@ namespace CinemaProject.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Columns")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Rows")
+                    b.Property<int>("CapId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CapId");
 
                     b.ToTable("Screens");
                 });
@@ -179,16 +173,7 @@ namespace CinemaProject.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Column")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Row")
-                        .HasColumnType("int");
-
                     b.Property<int>("ScreenId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ScreenId1")
                         .HasColumnType("int");
 
                     b.Property<string>("Type")
@@ -198,8 +183,6 @@ namespace CinemaProject.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("ScreenId");
-
-                    b.HasIndex("ScreenId1");
 
                     b.ToTable("Seats");
                 });
@@ -211,6 +194,13 @@ namespace CinemaProject.DataAccess.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
 
@@ -246,33 +236,6 @@ namespace CinemaProject.DataAccess.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("CinemaProject.Models.Models.Booking", b =>
-                {
-                    b.HasOne("CinemaProject.Models.Models.Screening", "Screening")
-                        .WithMany()
-                        .HasForeignKey("ScreeningId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("CinemaProject.Models.Models.Seat", "Seat")
-                        .WithMany()
-                        .HasForeignKey("SeatId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("CinemaProject.Models.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Screening");
-
-                    b.Navigation("Seat");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("CinemaProject.Models.Models.Film", b =>
                 {
                     b.HasOne("CinemaProject.Models.Models.Genre", "Genre")
@@ -282,6 +245,17 @@ namespace CinemaProject.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("CinemaProject.Models.Models.Screen", b =>
+                {
+                    b.HasOne("CinemaProject.Models.Models.Cap", "Cap")
+                        .WithMany("Screens")
+                        .HasForeignKey("CapId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cap");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Screening", b =>
@@ -308,24 +282,20 @@ namespace CinemaProject.DataAccess.Migrations
                     b.HasOne("CinemaProject.Models.Models.Screen", "Screen")
                         .WithMany()
                         .HasForeignKey("ScreenId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CinemaProject.Models.Models.Screen", null)
-                        .WithMany("Seats")
-                        .HasForeignKey("ScreenId1");
-
                     b.Navigation("Screen");
+                });
+
+            modelBuilder.Entity("CinemaProject.Models.Models.Cap", b =>
+                {
+                    b.Navigation("Screens");
                 });
 
             modelBuilder.Entity("CinemaProject.Models.Models.Genre", b =>
                 {
                     b.Navigation("Films");
-                });
-
-            modelBuilder.Entity("CinemaProject.Models.Models.Screen", b =>
-                {
-                    b.Navigation("Seats");
                 });
 #pragma warning restore 612, 618
         }
